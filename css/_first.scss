@@ -1,0 +1,89 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:700,800);
+#preview-img{
+    width:200%;
+    height: 100%;
+    position:absolute;
+    
+}
+span.home-text{
+    font-family: Raleway;
+    font-size: 5em;
+    color: #fff;
+    text-align: center;
+}
+
+.bg.parallax{
+   
+    text-align:left;
+}
+.menu-parallax{
+    height:300px;
+    clear:both;
+    text-align:left;
+}
+#container {
+    background-color:black;
+    width:100%;   
+    height:400px;
+    overflow:hidden;
+
+}
+div {position:fixed;}
+.go-home-btn{
+    position: relative;
+    width:40%;
+    left:15%;
+}
+.bg {
+    right:10%;
+    width:100%; 
+    height:120%; 
+   }
+
+   @import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+   svg {
+       display: block;
+       font: 10.5em 'Montserrat';
+       width: 960px;
+       height: 300px;
+       margin: 0 auto;
+   }
+   
+   .text-copy {
+       fill: none;
+       stroke: white;
+       stroke-dasharray: 6% 29%;
+       stroke-width: 5px;
+       stroke-dashoffset: 0%;
+       animation: stroke-offset 5.5s infinite linear;
+   }
+   
+   .text-copy:nth-child(1){
+       stroke: rgb(60, 44, 150);
+       animation-delay: -1;
+   }
+   
+   .text-copy:nth-child(2){
+       stroke: #1a179e;
+       animation-delay: -2s;
+   }
+   
+   .text-copy:nth-child(3){
+       stroke: rgb(0, 129, 189);
+       animation-delay: -3s;
+   }
+   
+   .text-copy:nth-child(4){
+       stroke: rgb(91, 140, 233);
+       animation-delay: -4s;
+   }
+   
+   .text-copy:nth-child(5){
+       stroke: #FFF;
+       animation-delay: -5s;
+   }
+   
+   @keyframes stroke-offset{
+       100% {stroke-dashoffset: -35%;}
+   }

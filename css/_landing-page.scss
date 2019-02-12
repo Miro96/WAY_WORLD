@@ -1,4 +1,4 @@
-a {
+a.button{
     text-decoration: none;
     outline: none;
     display: inline-block;
@@ -30,7 +30,7 @@ a {
   .full-size-page{
       position: relative;
       width:100%;
-      
+      top:0%;
       &.box1{
         position: absolute;
         background-color: #472898;
@@ -59,14 +59,16 @@ a {
       }
   }
 }
-.way-world{
+.text{
     font-family: 'Montserrat', sans-serif;
-    font-size: 11px;
+    font-size: 12px;
     text-transform: uppercase;
     text-align: left;
     letter-spacing: 3px;
     font-weight: 800;
     color: #fff;
+}
+.way-world{
     left:16%;
     top:16%;
     .first-text{
@@ -76,3 +78,57 @@ a {
 
     }
 }
+.site-menu{
+    width: 100%;
+    height: 10%;
+
+    .logo-box{
+        top:2%;
+        left:6%;
+        font-size: 30px;
+        -webkit-animation: easy-in 1s linear; /* Safari 4+ */
+        -moz-animation: easy-in 1s linear; /* Fx 5+ */
+        -o-animation: easy-in 1s linear; /* Opera 12+ */
+        animation: easy-in 1s linear; /* IE 10+, Fx 29+ */
+        -webkit-animation-delay: 1s;
+        -moz-animation-delay: 1s;
+        -o-animation-delay: 1s;
+        animation-delay: 1s;
+    }
+    .main-menu-box{
+        position: relative;
+        width: 10%;
+        height:100%;
+        font-size: 26px;
+        font-weight: 400;
+        color:#fff;
+        left: 3%;
+        top:14%;
+    .main-menu span{ 
+        color:#fff;     
+        margin-left:-5px;   
+    } 
+    }
+    .lang-box{
+        right:8%;
+        top:4%;
+        .RU{
+            margin-right: 20px;
+        }
+    }
+}
+
+@-webkit-keyframes fade-in {   0% { opacity: 0.1; }   100% { opacity: 1; }   }
+@-moz-keyframes    fade-in {   0% { opacity: 0.1; }   100% { opacity: 1; }   }
+@-o-keyframes      fade-in {   0% { opacity: 0.1; }   100% { opacity: 1; }   }
+@keyframes         fade-in {   0% { opacity: 0.1; }   100% { opacity: 1; }   }
+body {
+  -webkit-animation: fade-in 1s linear; /* Safari 4+ */
+  -moz-animation: fade-in 1s linear; /* Fx 5+ */
+  -o-animation: fade-in 1s linear; /* Opera 12+ */
+  animation: fade-in 1s linear; /* IE 10+, Fx 29+ */
+}
+@-webkit-keyframes easy-in {   0% { transform: translateY(-30%) }   100% { transform: translateY(0) }   }
+@-moz-keyframes    easy-in {   0% { transform: translateY(-30%) }   100% { transform: translateX(0) }   }
+@-o-keyframes      easy-in {   0% { transform: translateY(-30%) }   100% { transform: translateX(0) }   }
+@keyframes         easy-in {   0% { transform: translateY(-30%) }   100% { transform: translateX(0) }   }

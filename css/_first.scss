@@ -48,32 +48,7 @@ div {position:fixed;}
         padding-top:10px;
     }
 }
-a {
-    text-decoration: none;
-    outline: none;
-    display: inline-block;
-    width: 140px;
-    height: 45px;
-    line-height: 45px;
-    border-radius: 45px;
-    margin: 10px 20px;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 11px;
-    text-transform: uppercase;
-    text-align: center;
-    letter-spacing: 3px;
-    font-weight: 600;
-    color: #524f4e;
-    background: white;
-    box-shadow: 0 8px 15px rgba(0,0,0,.1);
-    transition: .3s;
-  }
-  a:hover {
-    background: #784FBB;
-    box-shadow: 0 15px 20px #2E0F62;
-    color: white;
-    transform: translateY(-7px);
-  }
+
 .bg {
     right:10%;
     width:100%; 
@@ -98,27 +73,27 @@ a {
    }
    
    .text-copy:nth-child(1){
-       stroke: #676FBD;
+       stroke: #784FBB;
        animation-delay: -1;
    }
    
    .text-copy:nth-child(2){
-       stroke: #555FBD;
+       stroke: #5B2ADD;
        animation-delay: -2s;
    }
    
    .text-copy:nth-child(3){
-       stroke: #101863;
+       stroke: #472898;
        animation-delay: -3s;
    }
    
    .text-copy:nth-child(4){
-       stroke: #393E72;
+       stroke: #784FBB;
        animation-delay: -4s;
    }
    
    .text-copy:nth-child(5){
-       stroke: #333C98;
+       stroke: #5B2ADD;
        animation-delay: -5s;
    }
    

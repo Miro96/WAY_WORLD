@@ -54,6 +54,72 @@ div {
   padding-top: 10px;
 }
 
+.bg {
+  right: 10%;
+  width: 100%;
+  height: 120%;
+}
+
+svg {
+  display: block;
+  font: 10.5em 'Montserrat';
+  width: 960px;
+  height: 300px;
+  margin: 0 auto;
+}
+
+.text-copy {
+  fill: none;
+  stroke: white;
+  stroke-dasharray: 6% 29%;
+  stroke-width: 5px;
+  stroke-dashoffset: 0%;
+  -webkit-animation: stroke-offset 5.5s infinite linear;
+          animation: stroke-offset 5.5s infinite linear;
+}
+
+.text-copy:nth-child(1) {
+  stroke: #784FBB;
+  -webkit-animation-delay: -1;
+          animation-delay: -1;
+}
+
+.text-copy:nth-child(2) {
+  stroke: #5B2ADD;
+  -webkit-animation-delay: -2s;
+          animation-delay: -2s;
+}
+
+.text-copy:nth-child(3) {
+  stroke: #472898;
+  -webkit-animation-delay: -3s;
+          animation-delay: -3s;
+}
+
+.text-copy:nth-child(4) {
+  stroke: #784FBB;
+  -webkit-animation-delay: -4s;
+          animation-delay: -4s;
+}
+
+.text-copy:nth-child(5) {
+  stroke: #5B2ADD;
+  -webkit-animation-delay: -5s;
+          animation-delay: -5s;
+}
+
+@-webkit-keyframes stroke-offset {
+  100% {
+    stroke-dashoffset: -35%;
+  }
+}
+
+@keyframes stroke-offset {
+  100% {
+    stroke-dashoffset: -35%;
+  }
+}
+
 a {
   text-decoration: none;
   outline: none;
@@ -86,69 +152,58 @@ a:hover {
           transform: translateY(-7px);
 }
 
-.bg {
-  right: 10%;
+.data-block {
   width: 100%;
-  height: 120%;
+  height: 300%;
 }
 
-svg {
-  display: block;
-  font: 10.5em 'Montserrat';
-  width: 960px;
-  height: 300px;
-  margin: 0 auto;
+.data-block .full-size-page {
+  position: relative;
+  width: 100%;
 }
 
-.text-copy {
-  fill: none;
-  stroke: white;
-  stroke-dasharray: 6% 29%;
-  stroke-width: 5px;
-  stroke-dashoffset: 0%;
-  -webkit-animation: stroke-offset 5.5s infinite linear;
-          animation: stroke-offset 5.5s infinite linear;
+.data-block .full-size-page.box1 {
+  position: absolute;
+  background-color: #472898;
+  height: 26%;
 }
 
-.text-copy:nth-child(1) {
-  stroke: #676FBD;
-  -webkit-animation-delay: -1;
-          animation-delay: -1;
+.data-block .full-size-page.box2 {
+  position: absolute;
+  top: 29%;
+  background-color: #fff;
+  height: 24%;
 }
 
-.text-copy:nth-child(2) {
-  stroke: #555FBD;
-  -webkit-animation-delay: -2s;
-          animation-delay: -2s;
+.data-block .full-size-page.box2 a {
+  background-color: black;
+  width: 170px;
+  height: 60px;
+  font-size: 16px;
+  padding-top: 6px;
+  margin-top: 0%;
+  margin-left: 10%;
 }
 
-.text-copy:nth-child(3) {
-  stroke: #101863;
-  -webkit-animation-delay: -3s;
-          animation-delay: -3s;
+.data-block .full-size-page.box3 {
+  position: absolute;
+  top: 68%;
+  background-color: #26C0D5;
 }
 
-.text-copy:nth-child(4) {
-  stroke: #393E72;
-  -webkit-animation-delay: -4s;
-          animation-delay: -4s;
+.way-world {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 11px;
+  text-transform: uppercase;
+  text-align: left;
+  letter-spacing: 3px;
+  font-weight: 800;
+  color: #fff;
+  left: 16%;
+  top: 16%;
 }
 
-.text-copy:nth-child(5) {
-  stroke: #333C98;
-  -webkit-animation-delay: -5s;
-          animation-delay: -5s;
-}
-
-@-webkit-keyframes stroke-offset {
-  100% {
-    stroke-dashoffset: -35%;
-  }
-}
-
-@keyframes stroke-offset {
-  100% {
-    stroke-dashoffset: -35%;
-  }
+.way-world .first-text {
+  font-size: 180px;
 }
 /*# sourceMappingURL=style.css.map */

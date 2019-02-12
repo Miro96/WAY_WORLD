@@ -34,10 +34,56 @@ div {
   position: fixed;
 }
 
-.go-home-btn {
+.go-home {
   position: relative;
+}
+
+.go-home .big-animated-text {
   width: 40%;
   left: 15%;
+  top: 10%;
+}
+
+.go-home a {
+  position: inherit;
+  top: 54%;
+  left: 40%;
+  width: 190px;
+  height: 70px;
+  font-size: 20px;
+  padding-top: 10px;
+}
+
+a {
+  text-decoration: none;
+  outline: none;
+  display: inline-block;
+  width: 140px;
+  height: 45px;
+  line-height: 45px;
+  border-radius: 45px;
+  margin: 10px 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 11px;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 3px;
+  font-weight: 600;
+  color: #524f4e;
+  background: white;
+  -webkit-box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+a:hover {
+  background: #784FBB;
+  -webkit-box-shadow: 0 15px 20px #2E0F62;
+          box-shadow: 0 15px 20px #2E0F62;
+  color: white;
+  -webkit-transform: translateY(-7px);
+          transform: translateY(-7px);
 }
 
 .bg {

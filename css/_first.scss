@@ -1,4 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Raleway:700,800);
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
 #preview-img{
     width:200%;
     height: 100%;
@@ -29,19 +30,55 @@ span.home-text{
 
 }
 div {position:fixed;}
-.go-home-btn{
+.go-home {
     position: relative;
+
+    .big-animated-text{
     width:40%;
     left:15%;
+    top:10%;
+    }
+    a{
+        position: inherit;
+        top:54%;
+        left:40%;
+        width: 190px;
+        height: 70px;
+        font-size:20px;
+        padding-top:10px;
+    }
 }
+a {
+    text-decoration: none;
+    outline: none;
+    display: inline-block;
+    width: 140px;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 45px;
+    margin: 10px 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: 600;
+    color: #524f4e;
+    background: white;
+    box-shadow: 0 8px 15px rgba(0,0,0,.1);
+    transition: .3s;
+  }
+  a:hover {
+    background: #784FBB;
+    box-shadow: 0 15px 20px #2E0F62;
+    color: white;
+    transform: translateY(-7px);
+  }
 .bg {
     right:10%;
     width:100%; 
     height:120%; 
    }
-
-   @import url(https://fonts.googleapis.com/css?family=Montserrat);
-
    svg {
        display: block;
        font: 10.5em 'Montserrat';
@@ -57,6 +94,7 @@ div {position:fixed;}
        stroke-width: 5px;
        stroke-dashoffset: 0%;
        animation: stroke-offset 5.5s infinite linear;
+       
    }
    
    .text-copy:nth-child(1){

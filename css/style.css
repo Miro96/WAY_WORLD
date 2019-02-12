@@ -65,31 +65,31 @@ svg {
 }
 
 .text-copy:nth-child(1) {
-  stroke: #3c2c96;
+  stroke: #676FBD;
   -webkit-animation-delay: -1;
           animation-delay: -1;
 }
 
 .text-copy:nth-child(2) {
-  stroke: #1a179e;
+  stroke: #555FBD;
   -webkit-animation-delay: -2s;
           animation-delay: -2s;
 }
 
 .text-copy:nth-child(3) {
-  stroke: #0081bd;
+  stroke: #101863;
   -webkit-animation-delay: -3s;
           animation-delay: -3s;
 }
 
 .text-copy:nth-child(4) {
-  stroke: #5b8ce9;
+  stroke: #393E72;
   -webkit-animation-delay: -4s;
           animation-delay: -4s;
 }
 
 .text-copy:nth-child(5) {
-  stroke: #FFF;
+  stroke: #333C98;
   -webkit-animation-delay: -5s;
           animation-delay: -5s;
 }

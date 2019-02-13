@@ -143,13 +143,52 @@ a.button {
   transition: .3s;
 }
 
-a:hover {
+a.button:hover {
   background: #784FBB;
   -webkit-box-shadow: 0 15px 20px #2E0F62;
           box-shadow: 0 15px 20px #2E0F62;
   color: white;
   -webkit-transform: translateY(-7px);
           transform: translateY(-7px);
+}
+
+a.url {
+  color: black;
+  left: 5%;
+}
+
+div.down-slider-box {
+  position: relative;
+  margin-top: 3%;
+  width: 75%;
+}
+
+div.down-slider-box a.down {
+  font-size: 30px;
+  margin-left: 16%;
+  color: #524f4e49;
+}
+
+div.down-slider-box a.button {
+  background-color: black;
+  width: 170px;
+  height: 60px;
+  font-size: 16px;
+  padding-top: 6px;
+  margin-left: 4%;
+}
+
+div.phone-box {
+  position: absolute;
+  width: 25%;
+  top: 1%;
+  right: 0%;
+}
+
+div.phone-box a.phone {
+  font-size: 14px;
+  color: #535352;
+  font-weight: 1000;
 }
 
 .data-block {
@@ -164,31 +203,19 @@ a:hover {
 }
 
 .data-block .full-size-page.box1 {
-  position: absolute;
+  position: relative;
   background-color: #472898;
   height: 26%;
 }
 
 .data-block .full-size-page.box2 {
-  position: absolute;
-  top: 29%;
+  position: relative;
   background-color: #fff;
-  height: 24%;
-}
-
-.data-block .full-size-page.box2 a {
-  background-color: black;
-  width: 170px;
-  height: 60px;
-  font-size: 16px;
-  padding-top: 6px;
-  margin-top: 0%;
-  margin-left: 10%;
+  height: 100%;
 }
 
 .data-block .full-size-page.box3 {
-  position: absolute;
-  top: 68%;
+  position: relative;
   background-color: #26C0D5;
 }
 
@@ -217,17 +244,23 @@ a:hover {
 }
 
 .site-menu .logo-box {
-  top: 2%;
+  top: 0%;
   left: 6%;
   font-size: 30px;
-  -webkit-animation: easy-in 1s linear;
-  /* Safari 4+ */
-  /* Fx 5+ */
-  /* Opera 12+ */
-  animation: easy-in 1s linear;
-  /* IE 10+, Fx 29+ */
-  -webkit-animation-delay: 1s;
-  animation-delay: 1s;
+  -webkit-transition-timing-function: ease-in;
+          transition-timing-function: ease-in;
+  -webkit-transform: translateY(40%);
+          transform: translateY(40%);
+  -webkit-transition: 1s;
+  transition: 1s;
+  /* -webkit-animation: ease-in 1s linear; /* Safari 4+ 
+        -moz-animation: ease-in 1s linear; /* Fx 5+ 
+        -o-animation: ease-in 1s linear; /* Opera 12+ 
+        animation: ease-in 1s linear; /* IE 10+, Fx 29+ 
+        -webkit-animation-delay: 1s ;
+        -moz-animation-delay: 1s;
+        -o-animation-delay: 1s;
+        animation-delay: 1s;*/
 }
 
 .site-menu .main-menu-box {
@@ -282,25 +315,9 @@ body {
   /* IE 10+, Fx 29+ */
 }
 
-@-webkit-keyframes easy-in {
-  0% {
-    -webkit-transform: translateY(-30%);
-            transform: translateY(-30%);
-  }
-  100% {
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
-  }
-}
-
-@keyframes easy-in {
-  0% {
-    -webkit-transform: translateY(-30%);
-            transform: translateY(-30%);
-  }
-  100% {
-    -webkit-transform: translateX(0);
-            transform: translateX(0);
-  }
+.main-infobox {
+  position: relative;
+  margin-top: 5%;
+  height: 600px;
 }
 /*# sourceMappingURL=style.css.map */

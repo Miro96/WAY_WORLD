@@ -1,20 +1,34 @@
-
-a{
-&.button{
+@import url(http://fonts.googleapis.com/css?family=Raleway:700,800);
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url(../fonts/museosanscyrl.css);
+@import url(../fonts/GothaProMed.otf);
+html,body {
+    width:100%;
+    height:7000px;
+    margin:0;
+    padding:0;
+  -webkit-animation: fade-in 1s linear; /* Safari 4+ */
+  -moz-animation: fade-in 1s linear; /* Fx 5+ */
+  -o-animation: fade-in 1s linear; /* Opera 12+ */
+  animation: fade-in 1s linear; /* IE 10+, Fx 29+ */
+}
+.site-font-main{
     text-decoration: none;
     outline: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;  
+    letter-spacing: 3px;
+    font-weight: 600;
+
+&.button{
+    text-align: center;
     display: inline-block;
     width: 140px;
     height: 45px;
     line-height: 45px;
     border-radius: 45px;
     margin: 10px 20px;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 11px;
-    text-transform: uppercase;
-    text-align: center;
-    letter-spacing: 3px;
-    font-weight: 600;
     color: #524f4e;
     background: white;
     box-shadow: 0 8px 15px rgba(0,0,0,.1);
@@ -30,11 +44,17 @@ a{
         color:black;
         left:5%;
     }
-    
+}  
+
+p{
+    font: 400 14px/1.86 MuseoSansCyrl,sans-serif;
+    letter-spacing: .025em;
+    color:#5e647d;
 }
 div.down-slider-box{
 position: relative;
-margin-top:3%;
+margin-top:4%;
+margin-bottom:4%;
     width:75%;
     a.down{
         font-size: 30px;
@@ -44,10 +64,10 @@ margin-top:3%;
     }
     a.button{
         background-color: black;
-        width: 170px;
-        height: 60px;
+        width: 180px;
+        height: 70px;
         font-size:16px;
-        padding-top:6px;
+        padding-top:12px;
         margin-left: 4%;
     }
 }
@@ -63,8 +83,10 @@ position: absolute;
     }
 }
   .data-block{
-      width: 100%;
-      height: 300%;
+      width: inherit;
+      height: inherit;
+      margin:0;
+      padding:0;
   .full-size-page{
       position: relative;
       width:100%;
@@ -72,12 +94,12 @@ position: absolute;
       &.box1{
         position: relative;
         background-color: #472898;
-        height: 26%;
+        height: 8%;
       }
       &.box2{
         position: relative;
         background-color: #fff;
-        height: 100%;      
+        height: 30%;      
       }
       &.box3{
         position: relative;
@@ -92,25 +114,25 @@ position: absolute;
     text-align: left;
     letter-spacing: 3px;
     font-weight: 800;
-    color: #fff;
 }
 .way-world{
+    position: absolute;
     left:16%;
-    top:16%;
+    top:26%;
+    color:#fff;
     .first-text{
         font-size: 180px;
-    }
-    .second-text{
-
     }
 }
 .site-menu{
     width: 100%;
-    height: 10%;
-
+    height: 14%;
+    color:#fff;
     .logo-box{
-        top:0%;
-        left:6%;
+        position: absolute;
+        top:0;
+        margin-left:8%;
+        width:8%;
         font-size: 30px;
         transition-timing-function: ease-in;
         transform: translateY(40%);
@@ -126,12 +148,12 @@ position: absolute;
     }
     .main-menu-box{
         position: relative;
-        width: 10%;
+        width: 4%;
         height:100%;
         font-size: 26px;
         font-weight: 400; 
         color:#fff;
-        left: 3%;
+        margin-left: 3%;
         top:14%;
     .main-menu span{ 
         color:#fff;     
@@ -139,10 +161,16 @@ position: absolute;
     } 
     }
     .lang-box{
+        
+        position: absolute;
         right:8%;
         top:4%;
         .RU{
+            color:#fff;
             margin-right: 20px;
+        }
+        .EN{
+            color:#fff;
         }
     }
 }
@@ -151,14 +179,57 @@ position: absolute;
 @-moz-keyframes    fade-in {   0% { opacity: 0.1; }   100% { opacity: 1; }   }
 @-o-keyframes      fade-in {   0% { opacity: 0.1; }   100% { opacity: 1; }   }
 @keyframes         fade-in {   0% { opacity: 0.1; }   100% { opacity: 1; }   }
-body {
-  -webkit-animation: fade-in 1s linear; /* Safari 4+ */
-  -moz-animation: fade-in 1s linear; /* Fx 5+ */
-  -o-animation: fade-in 1s linear; /* Opera 12+ */
-  animation: fade-in 1s linear; /* IE 10+, Fx 29+ */
-}
+
+
 .main-infobox{
     position: relative;
-    margin-top:5%;
-    height:600px;
+    .parallax-image-infobox{
+        margin-left: 12%;
+        width: 50%;
+        img{
+            width:70%;
+            height: 40%;
+        }
+    }
+    .text-infobox{
+        position: absolute;
+        right:16%;
+        top:20%;
+        width:30%;
+        h1{
+           margin-bottom: 16%;
+            font-weight: bolder;
+            font-size: 60px;
+        }
+        .questions-box{
+            top:0%;
+            width:100%;
+            p{
+                font:700 12px/1.7 Gotham Pro,sans-serif;
+                color:#fa4e40;
+                letter-spacing: 1px;
+                width:100%;
+                a{
+                    font:700 12px/1.7 Gotham Pro,sans-serif;
+                    letter-spacing: 1px;
+                    color:#fa4e40;
+                    text-decoration: underline;
+                    margin-right: 0;
+                    padding-top: 20px;
+                }
+                .site-font-main.button{
+                    position: relative;
+                    margin: 0 6px;
+                    padding-left:0;
+                    padding-top:2px;
+                    color:#fff;
+                    background-color: black;
+                    width:26px;
+                    height:26px;
+                    text-decoration: none;
+                }
+            }
+            }
+            
+    }
 }

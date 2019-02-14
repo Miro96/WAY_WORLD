@@ -1,0 +1,159 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:700,800);
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+#preview-img {
+  width: 200%;
+  height: 100%;
+  position: absolute;
+}
+
+span.home-text {
+  font-family: Raleway;
+  font-size: 5em;
+  color: #fff;
+  text-align: center;
+}
+
+.bg.parallax {
+  text-align: left;
+}
+
+.menu-parallax {
+  height: 300px;
+  clear: both;
+  text-align: left;
+}
+
+#container {
+  background-color: black;
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+}
+
+a.button {
+  text-decoration: none;
+  outline: none;
+  display: inline-block;
+  width: 140px;
+  height: 45px;
+  line-height: 45px;
+  border-radius: 45px;
+  margin: 10px 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 11px;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 3px;
+  font-weight: 600;
+  color: #524f4e;
+  background: white;
+  -webkit-box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+a.button:hover {
+  background: #784FBB;
+  -webkit-box-shadow: 0 15px 20px #2E0F62;
+          box-shadow: 0 15px 20px #2E0F62;
+  color: white;
+  -webkit-transform: translateY(-7px);
+          transform: translateY(-7px);
+}
+
+a.url {
+  color: black;
+  left: 5%;
+}
+
+div {
+  position: fixed;
+}
+
+.go-home {
+  position: relative;
+}
+
+.go-home .big-animated-text {
+  width: 40%;
+  left: 15%;
+  top: 10%;
+}
+
+.go-home a.button {
+  position: inherit;
+  top: 54%;
+  left: 40%;
+  width: 190px;
+  height: 70px;
+  font-size: 20px;
+  padding-top: 10px;
+}
+
+.bg {
+  right: 10%;
+  width: 100%;
+  height: 120%;
+}
+
+svg {
+  display: block;
+  font: 10.5em 'Montserrat';
+  width: 960px;
+  height: 300px;
+  margin: 0 auto;
+}
+
+.text-copy {
+  fill: none;
+  stroke: white;
+  stroke-dasharray: 6% 29%;
+  stroke-width: 5px;
+  stroke-dashoffset: 0%;
+  -webkit-animation: stroke-offset 5.5s infinite linear;
+          animation: stroke-offset 5.5s infinite linear;
+}
+
+.text-copy:nth-child(1) {
+  stroke: #784FBB;
+  -webkit-animation-delay: -1;
+          animation-delay: -1;
+}
+
+.text-copy:nth-child(2) {
+  stroke: #5B2ADD;
+  -webkit-animation-delay: -2s;
+          animation-delay: -2s;
+}
+
+.text-copy:nth-child(3) {
+  stroke: #472898;
+  -webkit-animation-delay: -3s;
+          animation-delay: -3s;
+}
+
+.text-copy:nth-child(4) {
+  stroke: #784FBB;
+  -webkit-animation-delay: -4s;
+          animation-delay: -4s;
+}
+
+.text-copy:nth-child(5) {
+  stroke: #5B2ADD;
+  -webkit-animation-delay: -5s;
+          animation-delay: -5s;
+}
+
+@-webkit-keyframes stroke-offset {
+  100% {
+    stroke-dashoffset: -35%;
+  }
+}
+
+@keyframes stroke-offset {
+  100% {
+    stroke-dashoffset: -35%;
+  }
+}
+/*# sourceMappingURL=first.css.map */

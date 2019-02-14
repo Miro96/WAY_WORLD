@@ -2,6 +2,13 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
 @import url(../fonts/museosanscyrl.css);
 @import url(../fonts/GothaProMed.otf);
+$red : #fa4e40;
+$violet-light: #784FBB;
+$violet:#472898;
+@-webkit-keyframes fade-in {   0% { opacity: 0.1; }   100% { opacity: 1; }   }
+@-moz-keyframes    fade-in {   0% { opacity: 0.1; }   100% { opacity: 1; }   }
+@-o-keyframes      fade-in {   0% { opacity: 0.1; }   100% { opacity: 1; }   }
+@keyframes         fade-in {   0% { opacity: 0.1; }   100% { opacity: 1; }   }
 html,body {
     width:100%;
     height:7000px;
@@ -87,7 +94,8 @@ position: absolute;
       height: inherit;
       margin:0;
       padding:0;
-  .full-size-page{
+     
+  div.full-size-page{
       position: relative;
       width:100%;
       top:0%;
@@ -102,8 +110,43 @@ position: absolute;
         height: 30%;      
       }
       &.box3{
+        left:6%;
+        top:16%; 
         position: relative;
         background-color: #fff;
+        
+        div.why-we-the-best{
+            text-align: center;
+            div.frst{
+                float:left;
+                width:28%;
+            }
+            div.scnd{
+                float:left;
+                width:28%;
+            }
+            div.thrd{
+                float:left;
+                width:28%;
+            }
+            p{
+                &.booster{
+                    color:$violet-light;
+                    margin-bottom: 0;
+                }
+            }
+            h2{
+                text-decoration: underline $violet-light;
+                font: 600 36px MuseoSansCyrl,sans-serif;
+                letter-spacing: 0px;
+                text-transform: none;
+
+            }
+            img.booster-img{
+                width: 300px;
+                height: 300px;
+            }
+        }
       }
   }
 }
@@ -111,7 +154,7 @@ position: absolute;
     font-family: 'Montserrat', sans-serif;
     font-size: 12px;
     text-transform: uppercase;
-    text-align: left;
+    //text-align: left;
     letter-spacing: 3px;
     font-weight: 800;
 }
@@ -168,12 +211,13 @@ position: absolute;
     }
 }
 
-@-webkit-keyframes fade-in {   0% { opacity: 0.1; }   100% { opacity: 1; }   }
-@-moz-keyframes    fade-in {   0% { opacity: 0.1; }   100% { opacity: 1; }   }
-@-o-keyframes      fade-in {   0% { opacity: 0.1; }   100% { opacity: 1; }   }
-@keyframes         fade-in {   0% { opacity: 0.1; }   100% { opacity: 1; }   }
 
 
+.h1{
+    margin-bottom: 16%;
+     font-weight: bolder;
+     font-size: 60px;
+ }
 .main-infobox{
     position: relative;
     .parallax-image-infobox{
@@ -209,6 +253,9 @@ position: absolute;
         margin-top:6%;
         width:32%;
         h1{
+            span{
+                color: $violet;
+            }
             margin-bottom: 16%;
              font-weight: bolder;
              font-size: 60px;
@@ -223,6 +270,9 @@ position: absolute;
            margin-bottom: 16%;
             font-weight: bolder;
             font-size: 60px;
+            span{
+                color: $violet;
+            }
         }
         .questions-box{
             top:0%;
@@ -252,7 +302,7 @@ position: absolute;
                     text-decoration: none;
                 }
             }
-            }
+        }
             
     }
 }

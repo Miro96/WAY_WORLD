@@ -123,7 +123,7 @@ div.phone-box a.phone {
 
 .data-block .full-size-page.box3 {
   position: relative;
-  background-color: #26C0D5;
+  background-color: #fff;
 }
 
 .text {
@@ -164,14 +164,6 @@ div.phone-box a.phone {
           transform: translateY(40%);
   -webkit-transition: 1s;
   transition: 1s;
-  /* -webkit-animation: ease-in 1s linear; /* Safari 4+ 
-        -moz-animation: ease-in 1s linear; /* Fx 5+ 
-        -o-animation: ease-in 1s linear; /* Opera 12+ 
-        animation: ease-in 1s linear; /* IE 10+, Fx 29+ 
-        -webkit-animation-delay: 1s ;
-        -moz-animation-delay: 1s;
-        -o-animation-delay: 1s;
-        animation-delay: 1s;*/
 }
 
 .site-menu .main-menu-box {
@@ -229,18 +221,52 @@ div.phone-box a.phone {
 
 .main-infobox .parallax-image-infobox {
   margin-left: 12%;
+}
+
+.main-infobox .parallax-image-infobox.box1 {
   width: 50%;
 }
 
-.main-infobox .parallax-image-infobox img {
+.main-infobox .parallax-image-infobox.box1 img {
   width: 70%;
-  height: 40%;
+  height: 36%;
+}
+
+.main-infobox .parallax-image-infobox.box2 img {
+  top: 0%;
+  width: 86%;
+  height: 12%;
+}
+
+.main-infobox .parallax-image-infobox2 {
+  position: absolute;
+  right: -2.7%;
+  width: 50%;
+  top: 55%;
+}
+
+.main-infobox .parallax-image-infobox2 img {
+  width: 70%;
+  height: 44%;
+}
+
+.main-infobox .text-infobox2 {
+  position: relative;
+  left: 16%;
+  margin-top: 6%;
+  width: 32%;
+}
+
+.main-infobox .text-infobox2 h1 {
+  margin-bottom: 16%;
+  font-weight: bolder;
+  font-size: 60px;
 }
 
 .main-infobox .text-infobox {
   position: absolute;
   right: 16%;
-  top: 20%;
+  top: 6%;
   width: 30%;
 }
 

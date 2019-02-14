@@ -1,5 +1,32 @@
 @import url(http://fonts.googleapis.com/css?family=Raleway:700,800);
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
+@-webkit-keyframes fade-in {
+  0% {
+    opacity: 0.1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0.1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+html, body {
+  -webkit-animation: fade-in 1s linear;
+  /* Safari 4+ */
+  /* Fx 5+ */
+  /* Opera 12+ */
+  animation: fade-in 1s linear;
+  /* IE 10+, Fx 29+ */
+}
+
 #preview-img {
   width: 200%;
   height: 100%;

@@ -103,7 +103,7 @@ position: absolute;
       }
       &.box3{
         position: relative;
-        background-color: #26C0D5;
+        background-color: #fff;
       }
   }
 }
@@ -137,14 +137,7 @@ position: absolute;
         transition-timing-function: ease-in;
         transform: translateY(40%);
         transition: 1s;
-       /* -webkit-animation: ease-in 1s linear; /* Safari 4+ 
-        -moz-animation: ease-in 1s linear; /* Fx 5+ 
-        -o-animation: ease-in 1s linear; /* Opera 12+ 
-        animation: ease-in 1s linear; /* IE 10+, Fx 29+ 
-        -webkit-animation-delay: 1s ;
-        -moz-animation-delay: 1s;
-        -o-animation-delay: 1s;
-        animation-delay: 1s;*/
+
     }
     .main-menu-box{
         position: relative;
@@ -185,16 +178,46 @@ position: absolute;
     position: relative;
     .parallax-image-infobox{
         margin-left: 12%;
-        width: 50%;
-        img{
-            width:70%;
-            height: 40%;
+        &.box1{
+            width: 50%;
+            img{
+                width:70%;
+                height:36%;
+            }
         }
+        &.box2{
+            img{
+                top:0%;
+                width:86%;
+                height:12%;
+            }
+        }
+    }
+    .parallax-image-infobox2{
+        position: absolute;
+        right:-2.7%;
+        width: 50%;
+        top:55%;
+            img{
+                width:70%;
+                height:44%;
+            }
+        }
+    .text-infobox2{
+        position:relative;
+        left:16%;
+        margin-top:6%;
+        width:32%;
+        h1{
+            margin-bottom: 16%;
+             font-weight: bolder;
+             font-size: 60px;
+         }
     }
     .text-infobox{
         position: absolute;
         right:16%;
-        top:20%;
+        top:6%;
         width:30%;
         h1{
            margin-bottom: 16%;

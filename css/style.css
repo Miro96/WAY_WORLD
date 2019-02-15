@@ -2,6 +2,7 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
 @import url(../fonts/museosanscyrl.css);
 @import url(../fonts/GothaProMed.otf);
+@import url(../fonts/Apercu_Pro_Italic.ttf);
 @-webkit-keyframes fade-in {
   0% {
     opacity: 0.1;
@@ -79,20 +80,45 @@ p {
   color: #5e647d;
 }
 
-div.down-slider-box {
+div.data-block {
+  width: inherit;
+  height: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+div.data-block div.full-size-page {
+  position: relative;
+  width: 100%;
+  top: 0%;
+}
+
+div.data-block div.full-size-page.box1 {
+  height: 8%;
+  position: relative;
+  background-color: #472898;
+}
+
+div.data-block div.full-size-page.box2 {
+  position: relative;
+  background-color: #fff;
+}
+
+div.data-block div.full-size-page.box2 div.down-slider-box {
+  float: left;
   position: relative;
   margin-top: 4%;
   margin-bottom: 4%;
   width: 75%;
 }
 
-div.down-slider-box a.down {
+div.data-block div.full-size-page.box2 div.down-slider-box a.down {
   font-size: 30px;
-  margin-left: 16%;
+  margin-left: 10%;
   color: #524f4e49;
 }
 
-div.down-slider-box a.button {
+div.data-block div.full-size-page.box2 div.down-slider-box a.button {
   background-color: black;
   width: 180px;
   height: 70px;
@@ -101,86 +127,132 @@ div.down-slider-box a.button {
   margin-left: 4%;
 }
 
-div.phone-box {
-  position: absolute;
+div.data-block div.full-size-page.box2 div.phone-box {
+  float: left;
+  position: relative;
+  margin-top: 6.5%;
   width: 25%;
-  top: 1%;
-  right: 0%;
 }
 
-div.phone-box a.phone {
+div.data-block div.full-size-page.box2 div.phone-box a.phone {
   font-size: 14px;
   color: #535352;
   font-weight: 1000;
 }
 
-.data-block {
-  width: inherit;
-  height: inherit;
-  margin: 0;
-  padding: 0;
-}
-
-.data-block div.full-size-page {
-  position: relative;
-  width: 100%;
-  top: 0%;
-}
-
-.data-block div.full-size-page.box1 {
-  position: relative;
-  background-color: #472898;
+div.data-block div.full-size-page.box3 {
   height: 8%;
-}
-
-.data-block div.full-size-page.box2 {
   position: relative;
   background-color: #fff;
-  height: 30%;
+  margin-top: 16%;
+  margin-left: 8%;
 }
 
-.data-block div.full-size-page.box3 {
-  left: 6%;
-  top: 16%;
-  position: relative;
-  background-color: #fff;
-}
-
-.data-block div.full-size-page.box3 div.why-we-the-best {
+div.data-block div.full-size-page.box3 div.why-we-the-best {
   text-align: center;
 }
 
-.data-block div.full-size-page.box3 div.why-we-the-best div.frst {
+div.data-block div.full-size-page.box3 div.why-we-the-best div.frst {
   float: left;
   width: 28%;
 }
 
-.data-block div.full-size-page.box3 div.why-we-the-best div.scnd {
+div.data-block div.full-size-page.box3 div.why-we-the-best div.scnd {
   float: left;
   width: 28%;
 }
 
-.data-block div.full-size-page.box3 div.why-we-the-best div.thrd {
+div.data-block div.full-size-page.box3 div.why-we-the-best div.thrd {
   float: left;
   width: 28%;
 }
 
-.data-block div.full-size-page.box3 div.why-we-the-best p.booster {
+div.data-block div.full-size-page.box3 div.why-we-the-best p.booster {
   color: #784FBB;
   margin-bottom: 0;
 }
 
-.data-block div.full-size-page.box3 div.why-we-the-best h2 {
-  -webkit-text-decoration: underline #784FBB;
-          text-decoration: underline #784FBB;
+div.data-block div.full-size-page.box3 div.why-we-the-best h2 {
   font: 600 36px MuseoSansCyrl,sans-serif;
   letter-spacing: 0px;
   text-transform: none;
 }
 
-.data-block div.full-size-page.box3 div.why-we-the-best img.booster-img {
+div.data-block div.full-size-page.box3 div.why-we-the-best img.booster-img {
   width: 300px;
   height: 300px;
+}
+
+div.data-block div.full-size-page.box4 {
+  height: 8%;
+  position: relative;
+  width: 100%;
+  background-color: #f2f2f2;
+}
+
+div.data-block div.full-size-page.box4 .headofBlock {
+  padding-top: 10%;
+  font: 700 12px/1.7 Gotham Pro,sans-serif;
+  color: #472898;
+  letter-spacing: 1px;
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+div.data-block div.full-size-page.box4 .double-background-parallax img.logo-box {
+  margin-top: 6%;
+  margin-left: 18%;
+  float: left;
+  width: 120px;
+  height: 120px;
+}
+
+div.data-block div.full-size-page.box4 .double-background-parallax span {
+  margin-top: 4%;
+  color: #472898;
+  font: 700 italic 50px/1.7 Apercu Pro, sans-serif;
+}
+
+div.data-block div.full-size-page.box4 .double-background-parallax span.first {
+  margin-left: 40px;
+  float: left;
+}
+
+div.data-block div.full-size-page.box4 .double-background-parallax span.second {
+  float: left;
+}
+
+div.data-block div.full-size-page.box4 .double-background-parallax p {
+  font: 400 italic 18px/1.55 Apercu Pro,sans-serif;
+  margin-left: 3%;
+  margin-right: 1%;
+  margin-top: 6%;
+  float: left;
+  width: 40%;
+}
+
+div.data-block div.full-size-page.box5 {
+  margin-top: 10%;
+  position: relative;
+  height: 12%;
+  background-color: #784FBB;
+}
+
+div.data-block div.full-size-page.box5 .products-all .way img.product-logo {
+  width: 160px;
+  height: 160px;
+}
+
+div.data-block div.full-size-page.box5 .products-all .way.world {
+  margin-left: 50%;
+  padding-top: 20%;
+}
+
+h2 {
+  letter-spacing: 0px;
+  -webkit-text-decoration: underline #784FBB;
+          text-decoration: underline #784FBB;
 }
 
 .text {
@@ -209,9 +281,9 @@ div.phone-box a.phone {
 }
 
 .site-menu .logo-box {
-  position: absolute;
+  position: fixed;
   top: 0;
-  margin-left: 8%;
+  margin-left: 4%;
   width: 8%;
   font-size: 30px;
   -webkit-transition-timing-function: ease-in;
@@ -223,14 +295,14 @@ div.phone-box a.phone {
 }
 
 .site-menu .main-menu-box {
-  position: relative;
+  position: fixed;
   width: 4%;
-  height: 100%;
+  height: 5%;
   font-size: 26px;
   font-weight: 400;
   color: #fff;
   margin-left: 3%;
-  top: 14%;
+  top: 2%;
 }
 
 .site-menu .main-menu-box .main-menu span {
@@ -264,22 +336,23 @@ div.phone-box a.phone {
 }
 
 .main-infobox .parallax-image-infobox {
+  float: left;
   margin-left: 12%;
 }
 
 .main-infobox .parallax-image-infobox.box1 {
-  width: 50%;
+  width: 30%;
 }
 
 .main-infobox .parallax-image-infobox.box1 img {
-  width: 70%;
-  height: 36%;
+  width: 100%;
+  height: 11%;
 }
 
 .main-infobox .parallax-image-infobox.box2 img {
   top: 0%;
   width: 86%;
-  height: 12%;
+  height: 4%;
 }
 
 .main-infobox .parallax-image-infobox2 {
@@ -291,7 +364,7 @@ div.phone-box a.phone {
 
 .main-infobox .parallax-image-infobox2 img {
   width: 70%;
-  height: 44%;
+  height: 11%;
 }
 
 .main-infobox .text-infobox2 {
@@ -312,10 +385,11 @@ div.phone-box a.phone {
 }
 
 .main-infobox .text-infobox {
-  position: absolute;
-  right: 16%;
-  top: 6%;
+  float: left;
+  position: relative;
   width: 30%;
+  margin-left: 10%;
+  margin-top: 8%;
 }
 
 .main-infobox .text-infobox h1 {
@@ -335,7 +409,7 @@ div.phone-box a.phone {
 
 .main-infobox .text-infobox .questions-box p {
   font: 700 12px/1.7 Gotham Pro,sans-serif;
-  color: #fa4e40;
+  color: #472898;
   letter-spacing: 1px;
   width: 100%;
 }
@@ -343,7 +417,7 @@ div.phone-box a.phone {
 .main-infobox .text-infobox .questions-box p a {
   font: 700 12px/1.7 Gotham Pro,sans-serif;
   letter-spacing: 1px;
-  color: #fa4e40;
+  color: #472898;
   text-decoration: underline;
   margin-right: 0;
   padding-top: 20px;

@@ -2,9 +2,11 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
 @import url(../fonts/museosanscyrl.css);
 @import url(../fonts/GothaProMed.otf);
+@import url(../fonts/Apercu_Pro_Italic.ttf);
 $red : #fa4e40;
 $violet-light: #784FBB;
 $violet:#472898;
+$grey-light:#f2f2f2;
 @-webkit-keyframes fade-in {   0% { opacity: 0.1; }   100% { opacity: 1; }   }
 @-moz-keyframes    fade-in {   0% { opacity: 0.1; }   100% { opacity: 1; }   }
 @-o-keyframes      fade-in {   0% { opacity: 0.1; }   100% { opacity: 1; }   }
@@ -52,44 +54,13 @@ html,body {
         left:5%;
     }
 }  
-
 p{
     font: 400 14px/1.86 MuseoSansCyrl,sans-serif;
     letter-spacing: .025em;
     color:#5e647d;
 }
-div.down-slider-box{
-position: relative;
-margin-top:4%;
-margin-bottom:4%;
-    width:75%;
-    a.down{
-        font-size: 30px;
-        margin-left:16%;
-        color:#524f4e49;
-        
-    }
-    a.button{
-        background-color: black;
-        width: 180px;
-        height: 70px;
-        font-size:16px;
-        padding-top:12px;
-        margin-left: 4%;
-    }
-}
-div.phone-box{
-position: absolute;
-    width:25%;
-    top:1%;
-    right:0%;
-    a.phone{
-        font-size: 14px;
-        color:#535352;
-        font-weight: 1000;
-    }
-}
-  .data-block{
+
+  div.data-block{
       width: inherit;
       height: inherit;
       margin:0;
@@ -100,21 +71,52 @@ position: absolute;
       width:100%;
       top:0%;
       &.box1{
-        position: relative;
-        background-color: #472898;
         height: 8%;
+        position: relative;
+        background-color: $violet;
       }
       &.box2{
         position: relative;
-        background-color: #fff;
-        height: 30%;      
+        background-color: #fff;   
+        div.down-slider-box{
+            float:left;
+            position: relative;
+            margin-top:4%;
+            margin-bottom:4%;
+            width:75%;
+            a.down{
+                font-size: 30px;
+                margin-left:10%;
+                color:#524f4e49;
+                
+            }
+            a.button{
+                background-color: black;
+                width: 180px;
+                height: 70px;
+                font-size:16px;
+                padding-top:12px;
+                margin-left: 4%;
+            }
+        }
+        div.phone-box{
+            float:left;
+            position: relative;
+            margin-top:6.5%;
+            width:25%;
+            a.phone{
+                font-size: 14px;
+                color:#535352;
+                font-weight: 1000;
+            }
+        }  
       }
       &.box3{
-        left:6%;
-        top:16%; 
+        height: 8%;
         position: relative;
         background-color: #fff;
-        
+        margin-top:16%;
+        margin-left:8%;
         div.why-we-the-best{
             text-align: center;
             div.frst{
@@ -136,7 +138,6 @@ position: absolute;
                 }
             }
             h2{
-                text-decoration: underline $violet-light;
                 font: 600 36px MuseoSansCyrl,sans-serif;
                 letter-spacing: 0px;
                 text-transform: none;
@@ -147,8 +148,87 @@ position: absolute;
                 height: 300px;
             }
         }
-      }
+    } 
+    &.box4{
+        height: 8%;
+        position: relative;
+        width:100%;
+        background-color: $grey-light;
+        .headofBlock{
+            padding-top: 10%;
+            font:700 12px/1.7 Gotham Pro,sans-serif;
+            color:$violet;
+            letter-spacing: 1px;
+            width:100%;
+            text-align: center;
+            text-transform: uppercase;
+        }
+        .double-background-parallax{
+            img.logo-box{
+                margin-top:6%;
+                margin-left: 18%;
+                float:left;
+                width:120px;
+                height: 120px;
+            }
+            span{
+                margin-top:4%;
+                color:$violet;
+                font: 700 italic 50px/1.7 Apercu Pro, sans-serif ;
+                &.first{
+                    margin-left:40px;
+                    float:left;
+                }
+                &.second{
+                    float:left;
+                }
+            }
+            p{
+                font:400 italic 18px/1.55 Apercu Pro,sans-serif;
+                margin-left:3%;
+                margin-right:1%;
+                margin-top:6%;
+                float:left;
+                width:40%;
+            
+            }
+        }
+    }
+    &.box5{
+        margin-top:10%;
+        position: relative;
+        height:12%;
+        background-color: $violet-light;
+        .products-all{
+            .way{
+                img.product-logo{
+                    width:160px;
+                    height:160px;
+                }
+                &.world{
+                    margin-left:50%;
+                    padding-top:20%;
+                }
+                &.events{
+                    
+                }
+                &.shop{
+                    
+                }
+                &.cafe{
+                    
+                }
+                &.social{
+                    
+                }
+            }
+        }
+    }
   }
+}
+h2{
+    letter-spacing: 0px;
+    text-decoration: underline $violet-light;
 }
 .text{
     font-family: 'Montserrat', sans-serif;
@@ -167,14 +247,15 @@ position: absolute;
         font-size: 180px;
     }
 }
+
 .site-menu{
     width: 100%;
     height: 14%;
     color:#fff;
     .logo-box{
-        position: absolute;
+        position: fixed;
         top:0;
-        margin-left:8%;
+        margin-left:4%;
         width:8%;
         font-size: 30px;
         transition-timing-function: ease-in;
@@ -182,19 +263,21 @@ position: absolute;
         transition: 1s;
 
     }
+    
     .main-menu-box{
-        position: relative;
+        position: fixed;
         width: 4%;
-        height:100%;
+        height:5%;
         font-size: 26px;
         font-weight: 400; 
         color:#fff;
         margin-left: 3%;
-        top:14%;
-    .main-menu span{ 
-        color:#fff;     
-        margin-left:-5px;   
-    } 
+        top:2%;
+    .main-menu{
+         span{ 
+        color:#fff;  
+        margin-left:-5px;  
+    } }
     }
     .lang-box{
         
@@ -221,19 +304,20 @@ position: absolute;
 .main-infobox{
     position: relative;
     .parallax-image-infobox{
+        float:left;
         margin-left: 12%;
         &.box1{
-            width: 50%;
+            width: 30%;
             img{
-                width:70%;
-                height:36%;
+                width:100%;
+                height:11%;
             }
         }
         &.box2{
             img{
                 top:0%;
                 width:86%;
-                height:12%;
+                height:4%;
             }
         }
     }
@@ -244,7 +328,7 @@ position: absolute;
         top:55%;
             img{
                 width:70%;
-                height:44%;
+                height:11%;
             }
         }
     .text-infobox2{
@@ -262,10 +346,11 @@ position: absolute;
          }
     }
     .text-infobox{
-        position: absolute;
-        right:16%;
-        top:6%;
+        float:left;
+        position: relative;
         width:30%;
+        margin-left:10%;
+        margin-top:8%;
         h1{
            margin-bottom: 16%;
             font-weight: bolder;
@@ -279,13 +364,13 @@ position: absolute;
             width:100%;
             p{
                 font:700 12px/1.7 Gotham Pro,sans-serif;
-                color:#fa4e40;
+                color:$violet;
                 letter-spacing: 1px;
                 width:100%;
                 a{
                     font:700 12px/1.7 Gotham Pro,sans-serif;
                     letter-spacing: 1px;
-                    color:#fa4e40;
+                    color:$violet;
                     text-decoration: underline;
                     margin-right: 0;
                     padding-top: 20px;

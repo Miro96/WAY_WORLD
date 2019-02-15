@@ -1,3 +1,13 @@
+var menu = $(".navbar-fixed-top");
+  $(window).scroll(function() {
+    var top = $(this).scrollTop();
+    if ( top >= 100 ) {
+      console.log(1);
+      menu.$(".main-menu").$("span").css('color:red!important')
+    } else if ( top <= 200 ) {
+      menu.$(".main-menu").$("span").css('color:red!important')
+    }
+  });
 document.onmousemove = shiftImageXY;
 
 var tempX = 0;
@@ -42,4 +52,3 @@ $(function() {
   
     });
   })
-  

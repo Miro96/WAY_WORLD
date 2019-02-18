@@ -5,14 +5,12 @@
             <link rel="stylesheet" href="../css/bootstrap/bootstrap-grid.min.css">
             <link rel="stylesheet" href="../css/bootstrap/bootstrap-reboot.min.css">
             <link rel="stylesheet" href="../css/style.css">
-            <link rel="stylesheet" href="fm.revealator.jquery.css">
             <script src="../js/jquery-1.11.3.min.js"></script>
-            <script src="../js/fm.revealator.jquery.js"></script>
             <script src="../js/bootstrap/bootstrap.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/ractive"></script>
             <title>Way World</title>
     </head>
     <body>
-        
         <div class="data-block">
             <div class="full-size-page box1 ">
                     <div class="site-menu">
@@ -45,43 +43,47 @@
                 </div>
             </div>
             <div class="full-size-page box2">
-                <div class="down-slider-box">
-                    <a class = "down text" href="">&#9660;</a>
-                    <a class="site-font-main button" href=""> Sponsore</a>
-                    <a class="site-font-main url text" href="">Become an investor</a>
-                </div>
-                <div class="phone-box">
-                    <a class="phone url text" href="tel:+375447687308">+375 (44) 768-73-08</a>
+                <div class="first-column">
+                    <div class="down-slider-box">
+                        <a class = "down text" href="">&#9660;</a>
+                        <a class="site-font-main button" href=""> Sponsore</a>
+                        <a class="site-font-main url text" href="">Become an investor</a>
+                    </div>
+                    <div class="phone-box">
+                        <a class="phone url text" href="tel:+375447687308">+375 (44) 768-73-08</a>
+                    </div>
                 </div>
                 <div class="main-infobox">
-                    <div class="parallax-image-infobox box1">
-                        <img src="../images/template1.jpg">
-                    </div>
-                    <div class="text-infobox">
-                        <h1 class="text"><span>H</span>ow does it work?</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus condimentum lobortis facilisis. Vestibulum interdum mauris vitae odio maximus, quis vestibulum nibh eleifend. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum posuere lorem at augue sollicitudin, ultricies accumsan libero porttitor. Nullam eu tellus massa. Suspendisse felis lorem, pulvinar sed finibus eu, volutpat sit amet velit. Ut iaculis felis est, vel pretium magna volutpat porttitor. In viverra sagittis dolor, efficitur vestibulum ex laoreet quis. Quisque metus velit, pulvinar in enim et, pulvinar finibus neque. Morbi eu vulputate ligula, vitae tincidunt sapien. Curabitur vitae euismod dui. Integer vel dignissim dolor.
-                            </p>
-                        <div class="questions-box">
-                            <p class="site-font-main url">Still have questions? Here's 
-                                <a class = "site-font-main text url" href="">FAQ PAGE</a>
-                                <a class= "site-font-main button" href="">→</a>
-                            </p>
-
-                        </div>
-                    </div>
-                    <div class="parallax-image-infobox box2" >
-                        <img src="../images/template2.jpg">
-                    </div>
-                    <div class="text-infobox2">
-                            <h1 class="text"><span>W</span>hy we are better than all?</h1>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus condimentum lobortis facilisis. Vestibulum interdum mauris vitae odio maximus, quis vestibulum nibh eleifend. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum posuere lorem at augue sollicitudin, ultricies accumsan libero porttitor. Nullam eu tellus massa. Suspendisse felis lorem, pulvinar sed finibus eu, volutpat sit amet velit. Ut iaculis felis est, vel pretium magna volutpat porttitor. In viverra sagittis dolor, efficitur vestibulum ex laoreet quis. Quisque metus velit, pulvinar in enim et, pulvinar finibus neque. Morbi eu vulputate ligula, vitae tincidunt sapien. Curabitur vitae euismod dui. Integer vel dignissim dolor.
-                                </p>
-                        </div>
-                    <div class="parallax-image-infobox2" >
+                        <div class="second-column">
+                            <div class="parallax-image-infobox box1">
                             <img src="../images/template1.jpg">
+                            </div>
+                            <div class="text-infobox">
+                                <h1 class="text"><span>H</span>ow does it work?</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus condimentum lobortis facilisis. Vestibulum interdum mauris vitae odio maximus, quis vestibulum nibh eleifend. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum posuere lorem at augue sollicitudin, ultricies accumsan libero porttitor. Nullam eu tellus massa. Suspendisse felis lorem, pulvinar sed finibus eu, volutpat sit amet velit. Ut iaculis felis est, vel pretium magna volutpat porttitor. In viverra sagittis dolor, efficitur vestibulum ex laoreet quis. Quisque metus velit, pulvinar in enim et, pulvinar finibus neque. Morbi eu vulputate ligula, vitae tincidunt sapien. Curabitur vitae euismod dui. Integer vel dignissim dolor.
+                                </p>
+                                <div class="questions-box">
+                                    <p class="site-font-main url">Still have questions? Here's 
+                                        <a class = "site-font-main text url" href="">FAQ PAGE</a>
+                                        <a class= "site-font-main button" href="">→</a>
+                                    </p>
+                                </div>
+                            </div>
                         </div>
-                </div>
-            
+                        <div class="third-column">
+                            <div class="parallax-image-infobox box2" >
+                                <img src="../images/template2.jpg">
+                            </div>
+                            <div class="text-infobox2">
+                                <h1 class="text"><span>W</span>hy we are better than all?</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus condimentum lobortis facilisis. Vestibulum interdum mauris vitae odio maximus, quis vestibulum nibh eleifend. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum posuere lorem at augue sollicitudin, ultricies accumsan libero porttitor. Nullam eu tellus massa. Suspendisse felis lorem, pulvinar sed finibus eu, volutpat sit amet velit. Ut iaculis felis est, vel pretium magna volutpat porttitor. In viverra sagittis dolor, efficitur vestibulum ex laoreet quis. Quisque metus velit, pulvinar in enim et, pulvinar finibus neque. Morbi eu vulputate ligula, vitae tincidunt sapien. Curabitur vitae euismod dui. Integer vel dignissim dolor.
+                                </p>
+                            </div>
+                            <div class="parallax-image-infobox2" >
+                                <img src="../images/template1.jpg">
+                            </div>
+                            </div>
+                    </div>
             </div>
             <div class="full-size-page box3">
                 <div class="why-we-the-best">
@@ -116,27 +118,91 @@
             </div>
             <div class="full-size-page box5">
                 <div class="products-all">
-                    <div class="way world">
+                    <div class="image events animation-around">
+                                <img class="product-logo" src="../images/template3.jpg">
+                    </div>
+                    <div class="image shop animation-around">
                             <img class="product-logo" src="../images/template3.jpg">
                     </div>
-                    <div class="way events">
+                    <div class="image world">
                             <img class="product-logo" src="../images/template3.jpg">
                     </div>
-                    <div class="way shop">
+                    <div class="image cafe animation-around">
                             <img class="product-logo" src="../images/template3.jpg">
                     </div>
-                    <div class="way cafe">
+                    <div class="image social animation-around">
                             <img class="product-logo" src="../images/template3.jpg">
                     </div>
-                    <div class="way social">
-                            <img class="product-logo" src="../images/template3.jpg">
+                </div>
+                <div class="description">
+                    <div class="desc events animation-around" style="display:none">
+                        
+                    </div>
+                    <div class="desc shop animation-around" style="display:none">
+                            
+                    </div>
+                    <div class="desc world" >
+                        <h1><span>W</span>ay World</h1>
+                        <h2> Location Service Package</h2>
+                        <h3>We help assistants to help</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi aut itaque sint necessitatibus nihil esse, odit, pariatur tempora libero non accusamus vitae commodi quibusdam saepe consectetur quaerat! Atque, tempore cum.</p>
+                        <h3>We learn many black man's to read the books</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi aut itaque sint necessitatibus nihil esse, odit, pariatur tempora libero non accusamus vitae commodi quibusdam saepe consectetur quaerat! Atque, tempore cum.</p>
+                         <a class="site-font-main button">Help us</a>
+                    </div>
+                    <div class="desc cafe animation-around" style="display:none">
+                            
+                    </div>
+                    <div class="desc social animation-around" style="display:none">
+                            
                     </div>
                 </div>
             </div> 
             <div class="full-size-page box6">
-                <div class="job-offers">
-
-                </div>
+                    <div id="container"></div>
+                    <script id="template">
+                      <div class="flip-card" on-click="toggle('flipCard')">{{ flipCard ? 'Reset' : 'Animate' }}</div>
+                      <div class="contact-wrapper">
+                          <div class="envelope {{ flipCard ? 'active' : '' }}">
+                            <div class="back paper"></div>
+                            <div class="content">
+                              <div class="form-wrapper">
+                                <form>
+                                  <div class="top-wrapper">
+                                    <div class="input">
+                                      <label>Name</label>
+                                      <input type="text" name="name"/>
+                                    </div>
+                                    <div class="input">
+                                      <label>Phone</label>
+                                      <input type="text" name="phone"/>
+                                    </div>
+                                    <div class="input">
+                                      <label>Email</label>
+                                      <input type="text" name="_replyto"/>
+                                    </div>
+                                  </div>
+                                  <div class="bottom-wrapper">
+                                    <div class="input">
+                                      <label>Subject</label>
+                                      <input type="text" name="_subject"/>
+                                    </div>
+                                    <div class="input">
+                                      <label>Message</label>
+                                      <textarea rows="5" name="message"></textarea>
+                                    </div>
+                                    <div class="submit">
+                                      <div class="submit-card" on-click="toggle('flipCard')">Send Mail</div>
+                                    </div>
+                                  </div>
+                                </form>
+                              </div>
+                            </div>
+                            <div class="front paper"></div>
+                          </div>
+                        </div>
+                      
+                    </script>
             </div> 
             <div class="full-size-page box7">
                 <div class="subscribe">

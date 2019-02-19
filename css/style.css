@@ -123,7 +123,7 @@
 
 body {
   width: 100%;
-  height: 7000px;
+  height: 100%;
   margin: 0;
   padding: 0;
   -webkit-animation: fade-in 1s linear;
@@ -175,7 +175,7 @@ body {
 }
 
 p {
-  font: 400 14px/1.86 MuseoSansCyrl,sans-serif;
+  font: 400 14px/1.86 MuseoSansCyrl, sans-serif;
   letter-spacing: .025em;
   color: #5e647d;
 }
@@ -202,12 +202,13 @@ div.data-block div.full-size-page {
 }
 
 div.data-block div.full-size-page.box1 {
-  height: 8%;
+  height: 80%;
   position: relative;
   background-color: #472898;
 }
 
 div.data-block div.full-size-page.box2 {
+  height: 300%;
   position: relative;
   background-color: #fff;
 }
@@ -249,19 +250,20 @@ div.data-block div.full-size-page.box2 div.phone-box a.phone {
 }
 
 div.data-block div.full-size-page.box2 .first-column {
-  height: 2%;
+  height: 8%;
 }
 
 div.data-block div.full-size-page.box2 .second-column {
-  height: 11%;
+  height: 36%;
 }
 
 div.data-block div.full-size-page.box2 .third-column {
   float: bottom;
-  height: 14%;
+  height: 44%;
 }
 
 div.data-block div.full-size-page.box2 .main-infobox {
+  height: 100%;
   position: relative;
 }
 
@@ -289,20 +291,20 @@ div.data-block div.full-size-page.box2 .main-infobox .parallax-image-infobox2 {
   position: absolute;
   right: -2.7%;
   width: 50%;
-  top: 55%;
+  top: 47%;
 }
 
 div.data-block div.full-size-page.box2 .main-infobox .parallax-image-infobox2 img {
   width: 70%;
-  height: 12%;
+  height: 36%;
 }
 
 div.data-block div.full-size-page.box2 .main-infobox .text-infobox2 {
   position: relative;
   left: 16%;
-  padding-top: 28%;
+  padding-top: 24%;
   width: 32%;
-  height: 100%;
+  height: 160%;
 }
 
 div.data-block div.full-size-page.box2 .main-infobox .text-infobox2 h1 {
@@ -339,14 +341,14 @@ div.data-block div.full-size-page.box2 .main-infobox .text-infobox .questions-bo
 }
 
 div.data-block div.full-size-page.box2 .main-infobox .text-infobox .questions-box p {
-  font: 700 12px/1.7 Gotham Pro,sans-serif;
+  font: 700 12px/1.7 Gotham Pro, sans-serif;
   color: #472898;
   letter-spacing: 1px;
   width: 100%;
 }
 
 div.data-block div.full-size-page.box2 .main-infobox .text-infobox .questions-box p a {
-  font: 700 12px/1.7 Gotham Pro,sans-serif;
+  font: 700 12px/1.7 Gotham Pro, sans-serif;
   letter-spacing: 1px;
   color: #472898;
   text-decoration: underline;
@@ -367,10 +369,10 @@ div.data-block div.full-size-page.box2 .main-infobox .text-infobox .questions-bo
 }
 
 div.data-block div.full-size-page.box3 {
-  height: 8%;
+  height: 100%;
   position: relative;
   background-color: #fff;
-  margin-top: 16%;
+  margin-top: 0;
   margin-left: 8%;
 }
 
@@ -399,7 +401,7 @@ div.data-block div.full-size-page.box3 div.why-we-the-best p.booster {
 }
 
 div.data-block div.full-size-page.box3 div.why-we-the-best h2 {
-  font: 600 36px MuseoSansCyrl,sans-serif;
+  font: 600 36px MuseoSansCyrl, sans-serif;
   letter-spacing: 0px;
   text-transform: none;
 }
@@ -410,7 +412,7 @@ div.data-block div.full-size-page.box3 div.why-we-the-best img.booster-img {
 }
 
 div.data-block div.full-size-page.box4 {
-  height: 8%;
+  height: 100%;
   position: relative;
   width: 100%;
   background-color: #f2f2f2;
@@ -418,7 +420,7 @@ div.data-block div.full-size-page.box4 {
 
 div.data-block div.full-size-page.box4 .headofBlock {
   padding-top: 10%;
-  font: 700 12px/1.7 Gotham Pro,sans-serif;
+  font: 700 12px/1.7 Gotham Pro, sans-serif;
   color: #472898;
   letter-spacing: 1px;
   width: 100%;
@@ -450,7 +452,7 @@ div.data-block div.full-size-page.box4 .double-background-parallax span.second {
 }
 
 div.data-block div.full-size-page.box4 .double-background-parallax p {
-  font: 400 italic 18px/1.55 Apercu Pro,sans-serif;
+  font: 400 italic 18px/1.55 Apercu Pro, sans-serif;
   margin-left: 3%;
   margin-right: 1%;
   margin-top: 6%;
@@ -461,7 +463,7 @@ div.data-block div.full-size-page.box4 .double-background-parallax p {
 div.data-block div.full-size-page.box5 {
   margin-top: 10%;
   position: relative;
-  height: 12%;
+  height: 100%;
 }
 
 div.data-block div.full-size-page.box5 .products-all {
@@ -534,8 +536,8 @@ div.data-block div.full-size-page.box5 .description h2 {
 
 div.data-block div.full-size-page.box5 .description h3 {
   margin: 5% 0;
-  -webkit-text-decoration: underline #784FBB;
-          text-decoration: underline #784FBB;
+  -webkit-text-decoration: underline #701F93;
+          text-decoration: underline #701F93;
 }
 
 div.data-block div.full-size-page.box5 .description a {
@@ -548,58 +550,53 @@ div.data-block div.full-size-page.box5 .description a:hover {
 }
 
 div.data-block div.full-size-page.box6 {
-  background: #784FBB;
-  height: 11%;
+  background: #250D63;
+  height: 100%;
+  padding-left: 14%;
+  padding-top: 14%;
 }
 
 div.data-block div.full-size-page.box6 .content {
-  padding-top: 16%;
-}
-
-div.data-block div.full-size-page.box6 .content body {
-  background: #efefef;
   font-size: 62.5%;
   font-family: 'Lato', sans-serif;
   font-weight: 300;
   color: #B6B6B6;
 }
 
-div.data-block div.full-size-page.box6 .content body section {
-  background: white;
-  margin: 60px auto 120px;
-  border-top: 15px solid #313A3D;
+div.data-block div.full-size-page.box6 .content section {
   text-align: center;
-  padding: 50px 0 110px;
+  padding: 0 0 170px;
   width: 80%;
   max-width: 1100px;
 }
 
-div.data-block div.full-size-page.box6 .content body section h1 {
-  padding-left: 40%;
-  margin-bottom: 40px;
-  font-size: 4em;
+div.data-block div.full-size-page.box6 .content section h1 {
+  margin-bottom: 60px;
+  font-size: 5em;
   text-transform: uppercase;
-  font-family: 'Lato', sans-serif;
-  font-weight: 100;
+  font-family: MuseoSansCyrl, sans-serif;
+  font-weight: 400;
+  text-transform: none;
+  color: #fff;
 }
 
-div.data-block div.full-size-page.box6 .content form {
+div.data-block div.full-size-page.box6 .content section form {
   width: 58.33333%;
   margin: 0 auto;
 }
 
-div.data-block div.full-size-page.box6 .content form .field {
+div.data-block div.full-size-page.box6 .content section form .field {
   width: 100%;
   position: relative;
   margin-bottom: 15px;
 }
 
-div.data-block div.full-size-page.box6 .content form .field label {
+div.data-block div.full-size-page.box6 .content section form .field label {
   text-transform: uppercase;
   position: absolute;
   top: 0;
   left: 0;
-  background: #313A3D;
+  background: #784FBB;
   width: 100%;
   padding: 18px 0;
   font-size: 1.45em;
@@ -608,7 +605,7 @@ div.data-block div.full-size-page.box6 .content form .field label {
   transition: all 333ms ease-in-out;
 }
 
-div.data-block div.full-size-page.box6 .content form .field label + span {
+div.data-block div.full-size-page.box6 .content section form .field label + span {
   font-family: 'SSStandard';
   opacity: 0;
   color: white;
@@ -622,8 +619,8 @@ div.data-block div.full-size-page.box6 .content form .field label + span {
   transition: all 333ms ease-in-out;
 }
 
-div.data-block div.full-size-page.box6 .content form .field input[type="text"],
-div.data-block div.full-size-page.box6 .content form .field textarea {
+div.data-block div.full-size-page.box6 .content section form .field input[type="text"],
+div.data-block div.full-size-page.box6 .content section form .field textarea {
   border: none;
   background: #E8E9EA;
   width: 80.5%;
@@ -636,53 +633,54 @@ div.data-block div.full-size-page.box6 .content form .field textarea {
   text-transform: uppercase;
 }
 
-div.data-block div.full-size-page.box6 .content form .field input[type="text"]#msg,
-div.data-block div.full-size-page.box6 .content form .field textarea#msg {
-  height: 18px;
+div.data-block div.full-size-page.box6 .content section form .field input[type="text"]#msg,
+div.data-block div.full-size-page.box6 .content section form .field textarea#msg {
+  height: 56px;
   resize: none;
   -webkit-transition: all 333ms ease-in-out;
   transition: all 333ms ease-in-out;
 }
 
-div.data-block div.full-size-page.box6 .content form .field input[type="text"]:focus, div.data-block div.full-size-page.box6 .content form .field input[type="text"].focused,
-div.data-block div.full-size-page.box6 .content form .field textarea:focus,
-div.data-block div.full-size-page.box6 .content form .field textarea.focused {
+div.data-block div.full-size-page.box6 .content section form .field input[type="text"]:focus, div.data-block div.full-size-page.box6 .content section form .field input[type="text"].focused,
+div.data-block div.full-size-page.box6 .content section form .field textarea:focus,
+div.data-block div.full-size-page.box6 .content section form .field textarea.focused {
   outline: none;
 }
 
-div.data-block div.full-size-page.box6 .content form .field input[type="text"]:focus#msg, div.data-block div.full-size-page.box6 .content form .field input[type="text"].focused#msg,
-div.data-block div.full-size-page.box6 .content form .field textarea:focus#msg,
-div.data-block div.full-size-page.box6 .content form .field textarea.focused#msg {
+div.data-block div.full-size-page.box6 .content section form .field input[type="text"]:focus#msg, div.data-block div.full-size-page.box6 .content section form .field input[type="text"].focused#msg,
+div.data-block div.full-size-page.box6 .content section form .field textarea:focus#msg,
+div.data-block div.full-size-page.box6 .content section form .field textarea.focused#msg {
   padding-bottom: 150px;
 }
 
-div.data-block div.full-size-page.box6 .content form .field input[type="text"]:focus + label, div.data-block div.full-size-page.box6 .content form .field input[type="text"].focused + label,
-div.data-block div.full-size-page.box6 .content form .field textarea:focus + label,
-div.data-block div.full-size-page.box6 .content form .field textarea.focused + label {
+div.data-block div.full-size-page.box6 .content section form .field input[type="text"]:focus + label, div.data-block div.full-size-page.box6 .content section form .field input[type="text"].focused + label,
+div.data-block div.full-size-page.box6 .content section form .field textarea:focus + label,
+div.data-block div.full-size-page.box6 .content section form .field textarea.focused + label {
   width: 18%;
-  background: #FD9638;
-  color: #313A3D;
+  background: #701F93;
+  color: #fff;
 }
 
-div.data-block div.full-size-page.box6 .content form .field input[type="text"].focused + label,
-div.data-block div.full-size-page.box6 .content form .field textarea.focused + label {
-  color: #FD9638;
+div.data-block div.full-size-page.box6 .content section form .field input[type="text"].focused + label,
+div.data-block div.full-size-page.box6 .content section form .field textarea.focused + label {
+  color: #701F93;
 }
 
-div.data-block div.full-size-page.box6 .content form .field:hover label {
+div.data-block div.full-size-page.box6 .content section form .field:hover label {
   width: 18%;
-  background: #313A3D;
+  background: #701F93;
   color: white;
 }
 
-div.data-block div.full-size-page.box6 .content form input[type="submit"] {
-  background: #FD9638;
-  color: white;
+div.data-block div.full-size-page.box6 .content section form input[type="submit"] {
+  background: #701F93;
+  color: #fff;
   -webkit-appearance: none;
   border: none;
   text-transform: uppercase;
   position: relative;
-  padding: 13px 50px;
+  margin-top: 20px;
+  padding: 16px 50px;
   font-size: 1.4em;
   letter-spacing: 0.1em;
   font-family: 'Lato', sans-serif;
@@ -691,20 +689,27 @@ div.data-block div.full-size-page.box6 .content form input[type="submit"] {
   transition: all 333ms ease-in-out;
 }
 
-div.data-block div.full-size-page.box6 .content form input[type="submit"]:hover {
-  background: #313A3D;
-  color: #FD9638;
+div.data-block div.full-size-page.box6 .content section form input[type="submit"]:hover {
+  background: white;
+  color: black;
 }
 
-div.data-block div.full-size-page.box6 .content form input[type="submit"]:focus {
+div.data-block div.full-size-page.box6 .content section form input[type="submit"]:focus {
   outline: none;
   background: #cd6302;
 }
 
+div.data-block div.full-size-page.box8 {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background-color: #701F93;
+}
+
 h2 {
   letter-spacing: 0px;
-  -webkit-text-decoration: underline #784FBB;
-          text-decoration: underline #784FBB;
+  -webkit-text-decoration: underline #701F93;
+          text-decoration: underline #701F93;
 }
 
 .text {
@@ -747,6 +752,7 @@ h2 {
 }
 
 .site-menu .main-menu-box {
+  z-index: 100;
   position: fixed;
   width: 4%;
   height: 5%;

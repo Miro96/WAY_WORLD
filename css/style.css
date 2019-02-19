@@ -548,252 +548,157 @@ div.data-block div.full-size-page.box5 .description a:hover {
 }
 
 div.data-block div.full-size-page.box6 {
-  background-color: #784FBB;
+  background: #784FBB;
   height: 11%;
 }
 
-div.data-block div.full-size-page.box6 .contact-wrapper {
-  position: absolute;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
-  width: 100%;
+div.data-block div.full-size-page.box6 .content {
+  padding-top: 16%;
 }
 
-div.data-block div.full-size-page.box6 .contact-wrapper .flip-card {
-  border-radius: 0.5em;
-  position: fixed;
-  top: 1em;
-  left: 1em;
-  width: 5em;
-  padding: 0.5em;
-  border: 0.1em solid #fff;
-  color: #fff;
+div.data-block div.full-size-page.box6 .content body {
+  background: #efefef;
+  font-size: 62.5%;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  color: #B6B6B6;
+}
+
+div.data-block div.full-size-page.box6 .content body section {
+  background: white;
+  margin: 60px auto 120px;
+  border-top: 15px solid #313A3D;
   text-align: center;
-  cursor: pointer;
-  z-index: 9;
+  padding: 50px 0 110px;
+  width: 80%;
+  max-width: 1100px;
 }
 
-div.data-block div.full-size-page.box6 .contact-wrapper .envelope {
-  position: relative;
-  display: block;
-  width: 30em;
-  height: 35em;
+div.data-block div.full-size-page.box6 .content body section h1 {
+  padding-left: 40%;
+  margin-bottom: 40px;
+  font-size: 4em;
+  text-transform: uppercase;
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+}
+
+div.data-block div.full-size-page.box6 .content form {
+  width: 58.33333%;
   margin: 0 auto;
 }
 
-div.data-block div.full-size-page.box6 .contact-wrapper .envelope.active .content {
-  padding: 15em 2em 2em;
-}
-
-div.data-block div.full-size-page.box6 .contact-wrapper .envelope.active .paper.front,
-div.data-block div.full-size-page.box6 .contact-wrapper .envelope.active .paper.back {
-  -webkit-animation-duration: 1.5s;
-          animation-duration: 1.5s;
-  -webkit-animation-direction: normal;
-          animation-direction: normal;
-  -webkit-animation-timing-function: ease-in-out;
-          animation-timing-function: ease-in-out;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
-}
-
-div.data-block div.full-size-page.box6 .contact-wrapper .envelope.active .paper.front {
-  -webkit-animation-name: envelope-front;
-          animation-name: envelope-front;
-}
-
-div.data-block div.full-size-page.box6 .contact-wrapper .envelope.active .paper.back {
-  -webkit-animation-name: envelope-back;
-          animation-name: envelope-back;
-}
-
-div.data-block div.full-size-page.box6 .contact-wrapper .envelope.active .paper.back:before {
-  -webkit-animation-duration: 0.5s;
-          animation-duration: 0.5s;
-  -webkit-animation-direction: normal;
-          animation-direction: normal;
-  -webkit-animation-timing-function: ease-in-out;
-          animation-timing-function: ease-in-out;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
-  -webkit-animation-delay: 1.25s;
-          animation-delay: 1.25s;
-  -webkit-animation-name: envelope-back-before;
-          animation-name: envelope-back-before;
-}
-
-div.data-block div.full-size-page.box6 .contact-wrapper .envelope.active .paper.back .bottom-wrapper {
-  -webkit-transform: rotateX(180deg);
-          transform: rotateX(180deg);
-}
-
-div.data-block div.full-size-page.box6 .contact-wrapper .envelope.active .paper.back .bottom-wrapper:after {
-  z-index: 0;
-  opacity: 1;
-}
-
-div.data-block div.full-size-page.box6 .contact-wrapper .envelope .content {
-  padding: 2em;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+div.data-block div.full-size-page.box6 .content form .field {
+  width: 100%;
   position: relative;
-  z-index: 9;
-  -webkit-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out;
-  -webkit-transition-delay: 1s;
-          transition-delay: 1s;
+  margin-bottom: 15px;
 }
 
-div.data-block div.full-size-page.box6 .contact-wrapper .envelope .top-wrapper,
-div.data-block div.full-size-page.box6 .contact-wrapper .envelope .bottom-wrapper {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  background: #03A9F5;
-  color: #fff;
-}
-
-div.data-block div.full-size-page.box6 .contact-wrapper .envelope .top-wrapper {
-  padding: 2em 2em 0;
-  border-top-left-radius: 0.5em;
-  border-top-right-radius: 0.5em;
-}
-
-div.data-block div.full-size-page.box6 .contact-wrapper .envelope .bottom-wrapper {
-  padding: 0 2em 2em;
-  border-bottom-left-radius: 0.5em;
-  border-bottom-right-radius: 0.5em;
-  -webkit-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out;
-  -webkit-transform-origin: top;
-          transform-origin: top;
-  -webkit-transform-style: preserve-3d;
-          transform-style: preserve-3d;
-  position: relative;
-  overflow: hidden;
-  margin-top: -1px;
-}
-
-div.data-block div.full-size-page.box6 .contact-wrapper .envelope .bottom-wrapper:after {
+div.data-block div.full-size-page.box6 .content form .field label {
+  text-transform: uppercase;
   position: absolute;
-  content: '';
-  display: block;
+  top: 0;
+  left: 0;
+  background: #313A3D;
+  width: 100%;
+  padding: 18px 0;
+  font-size: 1.45em;
+  letter-spacing: 0.075em;
+  -webkit-transition: all 333ms ease-in-out;
+  transition: all 333ms ease-in-out;
+}
+
+div.data-block div.full-size-page.box6 .content form .field label + span {
+  font-family: 'SSStandard';
   opacity: 0;
-  background: #03A9F5;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-}
-
-div.data-block div.full-size-page.box6 .contact-wrapper .envelope form label {
+  color: white;
   display: block;
-  padding-bottom: 0.5em;
-}
-
-div.data-block div.full-size-page.box6 .contact-wrapper .envelope form input,
-div.data-block div.full-size-page.box6 .contact-wrapper .envelope form textarea {
-  width: 100%;
-  -webkit-box-shadow: 0;
-          box-shadow: 0;
-  background: transparent;
-  color: #fff;
-}
-
-div.data-block div.full-size-page.box6 .contact-wrapper .envelope form input {
-  border-width: 0 0 0.1em;
-  border-color: #fff;
-  border-style: solid;
-}
-
-div.data-block div.full-size-page.box6 .contact-wrapper .envelope form textarea {
-  border: 0.1em solid #fff;
-  border-radius: 0.25em;
-}
-
-div.data-block div.full-size-page.box6 .contact-wrapper .envelope form .submit-card {
-  background: #fff;
-  color: #222;
-  text-align: center;
-  padding: 0.5em;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  background: #fff;
-  width: 100%;
-  border: 0;
-  -webkit-box-shadow: none;
-          box-shadow: none;
-  border-radius: 0.25em;
-  cursor: pointer;
-}
-
-div.data-block div.full-size-page.box6 .contact-wrapper .envelope form .input {
-  padding-bottom: 1em;
-}
-
-div.data-block div.full-size-page.box6 .contact-wrapper .envelope .paper {
   position: absolute;
-  display: block;
-  top: 0;
-  left: 0;
-  border-bottom-left-radius: 0.5em;
-  border-bottom-right-radius: 0.5em;
-  overflow: hidden;
+  top: 12px;
+  left: 7%;
+  font-size: 2.5em;
+  text-shadow: 1px 2px 0 #cd6302;
+  -webkit-transition: all 333ms ease-in-out;
+  transition: all 333ms ease-in-out;
 }
 
-div.data-block div.full-size-page.box6 .contact-wrapper .envelope .paper.back {
-  top: 0;
+div.data-block div.full-size-page.box6 .content form .field input[type="text"],
+div.data-block div.full-size-page.box6 .content form .field textarea {
+  border: none;
+  background: #E8E9EA;
+  width: 80.5%;
+  margin: 0;
+  padding: 18px 0;
+  padding-left: 19.5%;
+  color: #313A3D;
+  font-size: 1.4em;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
 }
 
-div.data-block div.full-size-page.box6 .contact-wrapper .envelope .paper.back:before {
-  content: '';
-  display: block;
-  width: 0;
-  height: 0;
-  margin-bottom: -1px;
-  border-style: solid;
-  border-width: 0 15em 10em 15em;
-  border-color: transparent transparent #d3d3d3 transparent;
-  -webkit-transform-origin: bottom;
-          transform-origin: bottom;
-  -webkit-transform-style: preserve-3d;
-          transform-style: preserve-3d;
-  z-index: 0;
+div.data-block div.full-size-page.box6 .content form .field input[type="text"]#msg,
+div.data-block div.full-size-page.box6 .content form .field textarea#msg {
+  height: 18px;
+  resize: none;
+  -webkit-transition: all 333ms ease-in-out;
+  transition: all 333ms ease-in-out;
 }
 
-div.data-block div.full-size-page.box6 .contact-wrapper .envelope .paper.back:after {
-  content: '';
-  display: block;
-  background-color: #d3d3d3;
-  width: 30em;
-  height: 20em;
+div.data-block div.full-size-page.box6 .content form .field input[type="text"]:focus, div.data-block div.full-size-page.box6 .content form .field input[type="text"].focused,
+div.data-block div.full-size-page.box6 .content form .field textarea:focus,
+div.data-block div.full-size-page.box6 .content form .field textarea.focused {
+  outline: none;
 }
 
-div.data-block div.full-size-page.box6 .contact-wrapper .envelope .paper.front {
-  top: 10em;
-  -webkit-box-shadow: 0.1em 0.5em 0.5em rgba(0, 0, 0, 0.25);
-          box-shadow: 0.1em 0.5em 0.5em rgba(0, 0, 0, 0.25);
-  z-index: 0;
+div.data-block div.full-size-page.box6 .content form .field input[type="text"]:focus#msg, div.data-block div.full-size-page.box6 .content form .field input[type="text"].focused#msg,
+div.data-block div.full-size-page.box6 .content form .field textarea:focus#msg,
+div.data-block div.full-size-page.box6 .content form .field textarea.focused#msg {
+  padding-bottom: 150px;
 }
 
-div.data-block div.full-size-page.box6 .contact-wrapper .envelope .paper.front:before {
-  content: '';
-  display: block;
-  width: 0;
-  height: 0;
-  border-style: solid;
-  border-width: 10em 15em 0 15em;
-  border-color: transparent #fff;
+div.data-block div.full-size-page.box6 .content form .field input[type="text"]:focus + label, div.data-block div.full-size-page.box6 .content form .field input[type="text"].focused + label,
+div.data-block div.full-size-page.box6 .content form .field textarea:focus + label,
+div.data-block div.full-size-page.box6 .content form .field textarea.focused + label {
+  width: 18%;
+  background: #FD9638;
+  color: #313A3D;
 }
 
-div.data-block div.full-size-page.box6 .contact-wrapper .envelope .paper.front:after {
-  content: '';
-  display: block;
-  width: 30em;
-  height: 10em;
-  background: #fff;
-  margin-top: -1px;
+div.data-block div.full-size-page.box6 .content form .field input[type="text"].focused + label,
+div.data-block div.full-size-page.box6 .content form .field textarea.focused + label {
+  color: #FD9638;
+}
+
+div.data-block div.full-size-page.box6 .content form .field:hover label {
+  width: 18%;
+  background: #313A3D;
+  color: white;
+}
+
+div.data-block div.full-size-page.box6 .content form input[type="submit"] {
+  background: #FD9638;
+  color: white;
+  -webkit-appearance: none;
+  border: none;
+  text-transform: uppercase;
+  position: relative;
+  padding: 13px 50px;
+  font-size: 1.4em;
+  letter-spacing: 0.1em;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  -webkit-transition: all 333ms ease-in-out;
+  transition: all 333ms ease-in-out;
+}
+
+div.data-block div.full-size-page.box6 .content form input[type="submit"]:hover {
+  background: #313A3D;
+  color: #FD9638;
+}
+
+div.data-block div.full-size-page.box6 .content form input[type="submit"]:focus {
+  outline: none;
+  background: #cd6302;
 }
 
 h2 {

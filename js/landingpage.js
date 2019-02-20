@@ -8,15 +8,19 @@ const fontcyrillic = 'MuseoSansCyrl,sans-serif';
 const fontbig = 'Montserrat, sans-serif';
 const fontitalic = 'Apercu Pro, sans-serif';
 const menu = $(".navbar-fixed-top");
-
+$('.menu-toggle').on('click', function(){
+  $('body').toggleClass('open');
+});
   $(window).scroll(function() {
     var top = $(this).scrollTop();
     if ( top >= 560 ) {
-      $(".tmp-clr").css('color',violet);
       $(".first-text").css('color',violet);
+     // $("button: before").css('color',violet);
+      
     } else if ( top <= 560 ) {
-        $(".tmp-clr").css('color','white');
-        $(".first-text").css('color','white');
+      $(".first-text").css('color','white');
+      //  $("button :before").css('color','white');
+        
     }
   });
   

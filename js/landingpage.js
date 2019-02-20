@@ -13,7 +13,7 @@ $('.menu-toggle').on('click', function(){
 });
   $(window).scroll(function() {
     var top = $(this).scrollTop();
-    if ( top >= 560 ) {
+    if ( top >= 560 && top<5000) {
       $(".first-text").css('color',violet);
      // $("button: before").css('color',violet);
       
@@ -21,6 +21,14 @@ $('.menu-toggle').on('click', function(){
       $(".first-text").css('color','white');
       //  $("button :before").css('color','white');
         
+    }
+    if(top >5000 && top<5800)
+    {
+      $(".first-text").css('color','white');
+    }
+    if(top >5800)
+    {
+      $(".first-text").css('color',violet);
     }
   });
   

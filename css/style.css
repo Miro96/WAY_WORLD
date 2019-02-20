@@ -124,7 +124,6 @@
 }
 
 html, body {
-  width: 100%;
   height: 100%;
   margin: 0;
   padding: 0;
@@ -177,7 +176,7 @@ html, body {
 }
 
 p {
-  font: 400 14px/1.86 MuseoSansCyrl, sans-serif;
+  font: 500 14px/1.86 MuseoSansCyrl, sans-serif;
   letter-spacing: .025em;
   color: #5e647d;
 }
@@ -276,6 +275,7 @@ div.data-block div.full-size-page.box2 .main-infobox .parallax-image-infobox {
 
 div.data-block div.full-size-page.box2 .main-infobox .parallax-image-infobox.box1 {
   width: 28%;
+  height: 100%;
 }
 
 div.data-block div.full-size-page.box2 .main-infobox .parallax-image-infobox.box1 img {
@@ -291,26 +291,26 @@ div.data-block div.full-size-page.box2 .main-infobox .parallax-image-infobox.box
 
 div.data-block div.full-size-page.box2 .main-infobox .parallax-image-infobox2 {
   position: absolute;
-  right: -2.7%;
+  right: -7.7%;
   width: 50%;
   top: 47%;
 }
 
 div.data-block div.full-size-page.box2 .main-infobox .parallax-image-infobox2 img {
-  width: 70%;
+  width: 60%;
   height: 36%;
 }
 
 div.data-block div.full-size-page.box2 .main-infobox .text-infobox2 {
   position: relative;
   left: 16%;
-  padding-top: 36%;
+  padding-top: 26%;
   width: 32%;
   height: 160%;
 }
 
 div.data-block div.full-size-page.box2 .main-infobox .text-infobox2 h1 {
-  margin-bottom: 26%;
+  margin-bottom: 16%;
   font-weight: bolder;
   font-size: 60px;
 }
@@ -343,14 +343,14 @@ div.data-block div.full-size-page.box2 .main-infobox .text-infobox .questions-bo
 }
 
 div.data-block div.full-size-page.box2 .main-infobox .text-infobox .questions-box p {
-  font: 700 10px/1.7 Gotham Pro, sans-serif;
+  font: 800 11px/1.7 MuseoSansCyrl, sans-serif;
   color: #472898;
   letter-spacing: 1px;
   width: 100%;
 }
 
 div.data-block div.full-size-page.box2 .main-infobox .text-infobox .questions-box p a {
-  font: 700 10px/1.7 Gotham Pro, sans-serif;
+  font: 800 11px/1.7 MuseoSansCyrl, sans-serif;
   letter-spacing: 1px;
   color: #472898;
   text-decoration: underline;
@@ -374,7 +374,7 @@ div.data-block div.full-size-page.box3 {
   height: 90%;
   position: relative;
   background-color: #fff;
-  margin-top: 26%;
+  margin-top: 12%;
   margin-left: 8%;
 }
 

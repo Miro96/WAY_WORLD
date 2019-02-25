@@ -1,0 +1,137 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:700,800);
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url(../fonts/museosanscyrl.css);
+@import url(../fonts/GothaProMed.otf);
+@import url(../fonts/Apercu_Pro_Italic.ttf);
+@import url(https://fonts.googleapis.com/css?family=Lusitana);
+$white:rgba(255, 255, 255, 0.938);
+$red: #fa4e40;
+$violet-light: #784FBB;
+$violet:#472898;
+$violet-superLight:#785EBC;
+$blue:#250D63;
+$grey-text-light: rgb(207, 204, 204);
+$grey-light:#f2f2f2;
+$pinky:#701F93;
+$dark-blue:rgb(19, 15, 29);
+$font-cyrillic:MuseoSansCyrl,
+sans-serif;
+$font-big:Montserrat,
+sans-serif;
+$font-italic:Apercu Pro,
+sans-serif;
+$font-gotham-Pro:Gotham Pro,
+sans-serif;
+@-webkit-keyframes fade-in {
+    0% {
+        opacity: 0.1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fade-in {
+    0% {
+        opacity: 0.1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fade-in {
+    0% {
+        opacity: 0.1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0.1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes moving {
+    100% {
+        transform: rotate(-360deg);
+    }
+}
+
+@keyframes envelope-front {
+    0% {
+        top: 10em;
+        z-index: 0;
+    }
+    50% {
+        top: 15em;
+        z-index: 9;
+    }
+    100% {
+        top: 10em;
+        z-index: 9;
+    }
+}
+
+@keyframes envelope-back {
+    0% {
+        top: 0;
+    }
+    50% {
+        top: 5em;
+    }
+    100% {
+        top: 0;
+    }
+}
+
+@keyframes envelope-back-before {
+    0% {
+        border-color: transparent transparent #d3d3d3 transparent;
+        transform: rotateX(0deg);
+        z-index: 0;
+    }
+    100% {
+        border-color: transparent transparent #fff transparent;
+        transform: rotateX(180deg);
+        z-index: 99;
+        position: relative;
+    }
+}
+
+html {
+    overflow-x: hidden;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    -webkit-animation: fade-in 1s linear;
+    /* Safari 4+ */
+    -moz-animation: fade-in 1s linear;
+    /* Fx 5+ */
+    -o-animation: fade-in 1s linear;
+    /* Opera 12+ */
+    animation: fade-in 1s linear;
+    /* IE 10+, Fx 29+ */
+}
+p {
+    font: 500 14px/1.86 $font-cyrillic;
+    letter-spacing: .025em;
+    color: #5e647d;
+}
+
+h1 {
+    font-size: 60px;
+    span {
+        color: $violet;
+    }
+}

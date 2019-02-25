@@ -18,7 +18,8 @@
   }
 }
 
-html, body {
+html,
+body {
   -webkit-animation: fade-in 1s linear;
   /* Safari 4+ */
   /* Fx 5+ */

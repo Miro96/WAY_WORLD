@@ -1,5 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Raleway:700,800);
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url(../fonts/introcondensed.css);
+@import url(_url.scss);
 @-webkit-keyframes fade-in {
   0% {
     opacity: 0.1;
@@ -104,9 +106,9 @@ div {
 }
 
 .go-home .big-animated-text {
-  width: 40%;
+  width: 50%;
   left: 15%;
-  top: 10%;
+  top: 20%;
 }
 
 .go-home a.button {
@@ -117,6 +119,19 @@ div {
   height: 70px;
   font-size: 20px;
   padding-top: 10px;
+}
+
+body {
+  background-color: #000000;
+  padding: 0px;
+  margin: 0px;
+}
+
+#gradient {
+  width: 100%;
+  height: 800px;
+  padding: 0px;
+  margin: 0px;
 }
 
 .bg {
@@ -137,38 +152,38 @@ svg {
   fill: none;
   stroke: white;
   stroke-dasharray: 6% 29%;
-  stroke-width: 5px;
+  stroke-width: 10px;
   stroke-dashoffset: 0%;
   -webkit-animation: stroke-offset 5.5s infinite linear;
           animation: stroke-offset 5.5s infinite linear;
 }
 
 .text-copy:nth-child(1) {
-  stroke: #784FBB;
+  stroke: #9e9e9e;
   -webkit-animation-delay: -1;
           animation-delay: -1;
 }
 
 .text-copy:nth-child(2) {
-  stroke: #5B2ADD;
+  stroke: #d0d0d1;
   -webkit-animation-delay: -2s;
           animation-delay: -2s;
 }
 
 .text-copy:nth-child(3) {
-  stroke: #472898;
+  stroke: #9e9e9e;
   -webkit-animation-delay: -3s;
           animation-delay: -3s;
 }
 
 .text-copy:nth-child(4) {
-  stroke: #784FBB;
+  stroke: #d0d0d1;
   -webkit-animation-delay: -4s;
           animation-delay: -4s;
 }
 
 .text-copy:nth-child(5) {
-  stroke: #5B2ADD;
+  stroke: #9e9e9e;
   -webkit-animation-delay: -5s;
           animation-delay: -5s;
 }

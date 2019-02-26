@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Intro Cond';
+    src: local('Intro Cond Light Free'), local('IntroCondLightFree'), url('introcondlightfree.woff2') format('woff2'), url('introcondlightfree.woff') format('woff'), url('introcondlightfree.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Intro Cond';
+    src: local('Intro Cond Black Free'), local('IntroCondBlackFree'), url('introcondblackfree.woff2') format('woff2'), url('introcondblackfree.woff') format('woff'), url('introcondblackfree.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}

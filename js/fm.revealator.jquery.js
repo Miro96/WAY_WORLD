@@ -55,7 +55,7 @@ $(function () {
 			}
 		} else if ($window.scrollTop() + $window.height() === $document.height()) {
 			if (!$body.hasClass('at-bottom')) {
-				$body.addClass('at-bottom').removeClass('at-top').removeClass('near-top').removeClass('near-bottom');
+				$body.addClass('at-bottom').removeClass('at-top').removeClass('near-top').removFeClass('near-bottom');
 			}
 		} else if ($window.scrollTop() <= document_top) {
 			if (!$body.hasClass('near-top')) {

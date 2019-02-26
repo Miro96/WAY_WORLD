@@ -1,59 +1,70 @@
 <html>
-    <head>
-            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-            <!---script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script-->
-            <link rel="stylesheet" href="css/bootstrap/bootstrap-grid.min.css">
-            <link rel="stylesheet" href="css/bootstrap/bootstrap-reboot.min.css">
-            <link rel="stylesheet" href="css/first.css">
-            <title>Way World</title>
-        </head>
-    <body>
-        <main></main>
-        <header></header>
-<div class="background">
-        <div class ="menu-parallax"></div>
-        <div class = "bg parallax">
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!---script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script-->
+    <link rel="stylesheet" href="css/bootstrap/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/bootstrap/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="css/first.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+    <title>Way World</title>
+</head>
+
+<body>
+    <main></main>
+    <header></header>
+    <div class="background">
+        <div class="menu-parallax"></div>
+        <div id="gradient"></div>
+        <!--div class = "bg parallax">
         <img id='preview-img' src="images/background.png" unselectable="on"/>
+        </div-->
+    </div>
+
+
+    <div class="go-home">
+        <div class="big-animated-text">
+            <a class="" href="pages/landingpage.html">
+                <svg viewBox="0 0 960 300">
+                    <symbol id="s-text">
+
+                        <text text-anchor="middle" x="50%" y="80%">Way World</text>
+
+                    </symbol>
+
+                    <g class="g-ants">
+                        <use xlink:href="#s-text" class="text-copy"></use>
+                        <use xlink:href="#s-text" class="text-copy"></use>
+                        <use xlink:href="#s-text" class="text-copy"></use>
+                        <use xlink:href="#s-text" class="text-copy"></use>
+                        <use xlink:href="#s-text" class="text-copy"></use>
+                    </g>
+                </svg>
+            </a>
         </div>
-</div>
 
-
-<div class="go-home">
-    <div class="big-animated-text">
-        <svg viewBox="0 0 960 300">
-            <symbol id="s-text">
-                <text text-anchor="middle" x="50%" y="80%">Way World</text>
-            </symbol>
-    
-            <g class = "g-ants">
-                <use xlink:href="#s-text" class="text-copy"></use>
-                <use xlink:href="#s-text" class="text-copy"></use>
-                <use xlink:href="#s-text" class="text-copy"></use>
-                <use xlink:href="#s-text" class="text-copy"></use>
-                <use xlink:href="#s-text" class="text-copy"></use>
-            </g>
-        </svg>
-    </div>
-    <div class="home-btn">
+        <!--div class="home-btn">
         <a class="button" href="pages/landingpage.html" >Go home</a>
+    </div-->
     </div>
-</div>
 
 
-<!-- подключение нужной версии jQuery -->
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
-integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-</script>
- 
-<!-- подключение popper.js, необходимого для корректной работы некоторых плагинов Bootstrap 4 -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" 
-integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
-</script>
-   
-<!-- подключение js-файла -->
- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" 
-integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous">
-</script>
-<script src="js/scripts.js"></script>
-    </body>
-  </html>
+    <!-- подключение нужной версии jQuery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+        </script>
+
+    <!-- подключение popper.js, необходимого для корректной работы некоторых плагинов Bootstrap 4 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
+        </script>
+
+    <!-- подключение js-файла -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+        integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous">
+        </script>
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>

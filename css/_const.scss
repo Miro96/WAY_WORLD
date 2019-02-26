@@ -9,6 +9,7 @@ $red: #fa4e40;
 $violet-light: #784FBB;
 $violet:#472898;
 $violet-superLight:#785EBC;
+$blue-violet:#443372;
 $blue:#250D63;
 $grey-text-light: rgb(207, 204, 204);
 $grey-light:#f2f2f2;
@@ -106,14 +107,16 @@ sans-serif;
 }
 
 html {
-    overflow-x: hidden;
 }
-
-html,
 body {
+    background-color: rgb(230, 230, 230);
+    position: absolute;
     height: 100%;
+    width: 100%;
     margin: 0;
-    padding: 0;
+    padding: 0;  
+    overflow-y: scroll;
+    overflow-x: hidden;
     -webkit-animation: fade-in 1s linear;
     /* Safari 4+ */
     -moz-animation: fade-in 1s linear;
@@ -122,6 +125,28 @@ body {
     /* Opera 12+ */
     animation: fade-in 1s linear;
     /* IE 10+, Fx 29+ */
+}
+::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+/* Track */
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background:rgba(112, 31, 147,0.8); 
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+::-webkit-scrollbar-thumb:window-inactive {
+    opacity: 0.4;
+	background: rgba(112, 31, 147,0.4); 
 }
 p {
     font: 500 14px/1.86 $font-cyrillic;

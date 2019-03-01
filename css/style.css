@@ -129,6 +129,28 @@
   }
 }
 
+@-webkit-keyframes fade-in-img {
+  0% {
+    opacity: 0.1;
+    background-color: #cfcccc 0.1;
+  }
+  100% {
+    opacity: 1;
+    background-color: #cfcccc 1;
+  }
+}
+
+@keyframes fade-in-img {
+  0% {
+    opacity: 0.1;
+    background-color: #cfcccc 0.1;
+  }
+  100% {
+    opacity: 1;
+    background-color: #cfcccc 1;
+  }
+}
+
 body {
   background-color: #e6e6e6;
   position: absolute;
@@ -443,7 +465,7 @@ div.data-block div.full-size-page.box4 .double-background-parallax p {
 div.data-block div.full-size-page.box5 {
   margin-top: 10%;
   position: relative;
-  background-color: #460A60;
+  background-color: rgba(197, 194, 194, 0.342);
   height: 110%;
 }
 
@@ -505,7 +527,7 @@ div.data-block div.full-size-page.box5 .description {
   padding-top: 8%;
   float: left;
   width: 36%;
-  color: #dbd8d8;
+  color: #3d3d3d;
 }
 
 div.data-block div.full-size-page.box5 .description h1 {
@@ -534,13 +556,14 @@ div.data-block div.full-size-page.box5 .description a:hover {
 }
 
 div.data-block div.full-size-page.box5 .description p {
-  color: #c0bebe;
+  color: #7e7e7e;
 }
 
 div.data-block div.full-size-page.box6 {
   background: #250D63;
   height: 110%;
   padding-left: 14%;
+  margin-top: 10%;
   padding-top: 14%;
 }
 
@@ -688,7 +711,118 @@ div.data-block div.full-size-page.box6 .content section form input[type="submit"
 
 div.data-block div.full-size-page.box7 {
   width: 100%;
-  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+}
+
+div.data-block div.full-size-page.box7 .newspage1 {
+  margin: 8% 0 8% 0;
+}
+
+div.data-block div.full-size-page.box7 .newspage1 .row {
+  padding: 0 8% 3% 8%;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row;
+          flex-flow: row;
+}
+
+div.data-block div.full-size-page.box7 .newspage1 .row .img-background {
+  text-decoration: none;
+  color: black;
+}
+
+div.data-block div.full-size-page.box7 .newspage1 .row .news {
+  height: 500px;
+  width: 520px;
+}
+
+@-webkit-keyframes fade-out-img {
+  0% {
+    opacity: 100%;
+  }
+  100% {
+    opacity: 0%;
+  }
+}
+
+@keyframes fade-out-img {
+  0% {
+    opacity: 100%;
+  }
+  100% {
+    opacity: 0%;
+  }
+}
+
+div.data-block div.full-size-page.box7 .newspage1 .row .news .content {
+  position: relative;
+  z-index: 1;
+}
+
+div.data-block div.full-size-page.box7 .newspage1 .row .news .img-content {
+  position: absolute;
+  width: 520px;
+  height: 500px;
+  background-image: url("/images/thumb-bcada28c.jpg");
+  opacity: 1;
+  z-index: -1;
+}
+
+div.data-block div.full-size-page.box7 .newspage1 .row .news:hover {
+  background-color: #cfcccc;
+}
+
+div.data-block div.full-size-page.box7 .newspage1 .row .news:hover .img-content {
+  -webkit-animation: fade-out-img 2s forwards;
+          animation: fade-out-img 2s forwards;
+}
+
+div.data-block div.full-size-page.box7 .newspage1 .row .news:hover a > h2, div.data-block div.full-size-page.box7 .newspage1 .row .news:hover a > span, div.data-block div.full-size-page.box7 .newspage1 .row .news:hover a > h4 {
+  padding-left: 5%;
+  -webkit-animation: fade-in-img 2s forwards;
+  /* Safari 4+ */
+  /* Fx 5+ */
+  /* Opera 12+ */
+  animation: fade-in-img 2s forwards;
+  /* IE 10+, Fx 29+ */
+}
+
+div.data-block div.full-size-page.box7 .newspage1 .row .news.first {
+  margin-right: 4%;
+}
+
+div.data-block div.full-size-page.box7 .newspage1 .row .news .section {
+  color: grey;
+  font-size: 20px;
+  margin: 8% 0 2% 0;
+}
+
+div.data-block div.full-size-page.box7 .newspage1 .row .news h4 {
+  overflow: hidden;
+  opacity: 0;
+}
+
+div.data-block div.full-size-page.box7 .newspage1 .row .news h2 {
+  font-size: 26px;
+  font-weight: 400;
+  margin-top: 22%;
+  overflow: hidden;
+  text-decoration: none;
+  opacity: 0;
+}
+
+div.data-block div.full-size-page.box7 .newspage1 .row .news span {
+  color: black;
+  font-weight: 700;
+  opacity: 0.7;
+  overflow: hidden;
+  opacity: 0;
 }
 
 div.data-block div.full-size-page.box8 {
@@ -1507,6 +1641,28 @@ h2 {
             transform: rotateX(180deg);
     z-index: 99;
     position: relative;
+  }
+}
+
+@-webkit-keyframes fade-in-img {
+  0% {
+    opacity: 0.1;
+    background-color: #cfcccc 0.1;
+  }
+  100% {
+    opacity: 1;
+    background-color: #cfcccc 1;
+  }
+}
+
+@keyframes fade-in-img {
+  0% {
+    opacity: 0.1;
+    background-color: #cfcccc 0.1;
+  }
+  100% {
+    opacity: 1;
+    background-color: #cfcccc 1;
   }
 }
 
